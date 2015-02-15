@@ -1,0 +1,420 @@
+0 NOTE Ambika Maheshwari
+Level Number : 0
+NOTE is Valid Tag
+
+0 HEAD
+Level Number : 0
+HEAD is Invalid Tag
+
+1 SOUR Family Echo
+Level Number : 1
+SOUR is Invalid Tag
+
+2 WWW http://www.familyecho.com/
+Level Number : 2
+WWW  is Invalid Tag
+
+1 FILE Family 2
+Level Number : 1
+FILE is Invalid Tag
+
+1 DATE 3 FEB 2015
+Level Number : 1
+DATE is Valid Tag
+
+1 DEST ANSTFILE
+Level Number : 1
+DEST is Invalid Tag
+
+1 GEDC
+Level Number : 1
+GEDC is Invalid Tag
+
+2 VERS 5.5.1
+Level Number : 2
+VERS is Invalid Tag
+
+2 FORM LINEAGE-LINKED
+Level Number : 2
+FORM is Invalid Tag
+
+1 SUBM @I1@
+Level Number : 1
+SUBM is Invalid Tag
+
+2 NAME Ambika Maheshwari
+Level Number : 2
+NAME is Valid Tag
+
+1 SUBN
+Level Number : 1
+SUBN is Invalid Tag
+
+1 CHAR UTF-8
+Level Number : 1
+CHAR is Invalid Tag
+
+0 @I1@ INDI
+Level Number : 0
+@I1@ is Invalid Tag
+
+1 NAME Ambika /Maheshwari/
+Level Number : 1
+NAME is Valid Tag
+
+2 GIVN Ambika
+Level Number : 2
+GIVN is Invalid Tag
+
+2 SURN Maheshwari
+Level Number : 2
+SURN is Invalid Tag
+
+2 _MARNM Maheshwari
+Level Number : 2
+_MAR is Invalid Tag
+
+1 SEX F
+Level Number : 1
+SEX  is Valid Tag
+
+1 BIRT
+Level Number : 1
+BIRT is Valid Tag
+
+2 DATE 21 SEP 1989
+Level Number : 2
+DATE is Valid Tag
+
+1 FAMS @F1@
+Level Number : 1
+FAMS is Valid Tag
+
+1 FAMC @F2@
+Level Number : 1
+FAMC is Valid Tag
+
+0 @I2@ INDI
+Level Number : 0
+@I2@ is Invalid Tag
+
+1 NAME Sushil /Maheshwari/
+Level Number : 1
+NAME is Valid Tag
+
+2 GIVN Sushil
+Level Number : 2
+GIVN is Invalid Tag
+
+2 SURN Maheshwari
+Level Number : 2
+SURN is Invalid Tag
+
+2 _MARNM Maheshwari
+Level Number : 2
+_MAR is Invalid Tag
+
+1 SEX M
+Level Number : 1
+SEX  is Valid Tag
+
+1 BIRT
+Level Number : 1
+BIRT is Valid Tag
+
+2 DATE 8 AUG 1966
+Level Number : 2
+DATE is Valid Tag
+
+1 FAMS @F2@
+Level Number : 1
+FAMS is Valid Tag
+
+0 @I3@ INDI
+Level Number : 0
+@I3@ is Invalid Tag
+
+1 NAME Shashi /Rathi/
+Level Number : 1
+NAME is Valid Tag
+
+2 GIVN Shashi
+Level Number : 2
+GIVN is Invalid Tag
+
+2 SURN Rathi
+Level Number : 2
+SURN is Invalid Tag
+
+2 _MARNM Maheshwari
+Level Number : 2
+_MAR is Invalid Tag
+
+1 SEX F
+Level Number : 1
+SEX  is Valid Tag
+
+1 BIRT
+Level Number : 1
+BIRT is Valid Tag
+
+2 DATE 5 JAN 1966
+Level Number : 2
+DATE is Valid Tag
+
+1 FAMS @F2@
+Level Number : 1
+FAMS is Valid Tag
+
+0 @I4@ INDI
+Level Number : 0
+@I4@ is Invalid Tag
+
+1 NAME Jeet /Damania/
+Level Number : 1
+NAME is Valid Tag
+
+2 GIVN Jeet
+Level Number : 2
+GIVN is Invalid Tag
+
+2 SURN Damania
+Level Number : 2
+SURN is Invalid Tag
+
+2 _MARNM Damania
+Level Number : 2
+_MAR is Invalid Tag
+
+1 SEX M
+Level Number : 1
+SEX  is Valid Tag
+
+1 BIRT
+Level Number : 1
+BIRT is Valid Tag
+
+2 DATE 5 FEB 1989
+Level Number : 2
+DATE is Valid Tag
+
+1 FAMS @F1@
+Level Number : 1
+FAMS is Valid Tag
+
+1 FAMC @F3@
+Level Number : 1
+FAMC is Valid Tag
+
+0 @I5@ INDI
+Level Number : 0
+@I5@ is Invalid Tag
+
+1 NAME Manoj /Damania/
+Level Number : 1
+NAME is Valid Tag
+
+2 GIVN Manoj
+Level Number : 2
+GIVN is Invalid Tag
+
+2 SURN Damania
+Level Number : 2
+SURN is Invalid Tag
+
+2 _MARNM Damania
+Level Number : 2
+_MAR is Invalid Tag
+
+1 SEX M
+Level Number : 1
+SEX  is Valid Tag
+
+1 BIRT
+Level Number : 1
+BIRT is Valid Tag
+
+2 DATE 21 APR 1960
+Level Number : 2
+DATE is Valid Tag
+
+1 FAMS @F3@
+Level Number : 1
+FAMS is Valid Tag
+
+0 @I6@ INDI
+Level Number : 0
+@I6@ is Invalid Tag
+
+1 NAME Meeta /Kadakia/
+Level Number : 1
+NAME is Valid Tag
+
+2 GIVN Meeta
+Level Number : 2
+GIVN is Invalid Tag
+
+2 SURN Kadakia
+Level Number : 2
+SURN is Invalid Tag
+
+2 _MARNM Damania
+Level Number : 2
+_MAR is Invalid Tag
+
+1 SEX F
+Level Number : 1
+SEX  is Valid Tag
+
+1 BIRT
+Level Number : 1
+BIRT is Valid Tag
+
+2 DATE 23 SEP 1967
+Level Number : 2
+DATE is Valid Tag
+
+1 FAMS @F3@
+Level Number : 1
+FAMS is Valid Tag
+
+0 @I7@ INDI
+Level Number : 0
+@I7@ is Invalid Tag
+
+1 NAME Priyanka /Maheshwari/
+Level Number : 1
+NAME is Valid Tag
+
+2 GIVN Priyanka
+Level Number : 2
+GIVN is Invalid Tag
+
+2 SURN Maheshwari
+Level Number : 2
+SURN is Invalid Tag
+
+2 _MARNM Maheshwari
+Level Number : 2
+_MAR is Invalid Tag
+
+1 SEX F
+Level Number : 1
+SEX  is Valid Tag
+
+1 BIRT
+Level Number : 1
+BIRT is Valid Tag
+
+2 DATE 21 JAN 1995
+Level Number : 2
+DATE is Valid Tag
+
+1 FAMC @F2@
+Level Number : 1
+FAMC is Valid Tag
+
+0 @I8@ INDI
+Level Number : 0
+@I8@ is Invalid Tag
+
+1 NAME Harshit /Maheshwari/
+Level Number : 1
+NAME is Valid Tag
+
+2 GIVN Harshit
+Level Number : 2
+GIVN is Invalid Tag
+
+2 SURN Maheshwari
+Level Number : 2
+SURN is Invalid Tag
+
+2 _MARNM Maheshwari
+Level Number : 2
+_MAR is Invalid Tag
+
+1 SEX M
+Level Number : 1
+SEX  is Valid Tag
+
+1 BIRT
+Level Number : 1
+BIRT is Valid Tag
+
+2 DATE 16 SEP 1995
+Level Number : 2
+DATE is Valid Tag
+
+1 FAMC @F2@
+Level Number : 1
+FAMC is Valid Tag
+
+0 @F1@ FAM
+Level Number : 0
+@F1@ is Valid Tag
+
+1 HUSB @I4@
+Level Number : 1
+HUSB is Valid Tag
+
+1 WIFE @I1@
+Level Number : 1
+WIFE is Valid Tag
+
+1 _CURRENT Y
+Level Number : 1
+_CUR is Invalid Tag
+
+0 @F2@ FAM
+Level Number : 0
+@F2@ is Valid Tag
+
+1 HUSB @I2@
+Level Number : 1
+HUSB is Valid Tag
+
+1 WIFE @I3@
+Level Number : 1
+WIFE is Valid Tag
+
+1 CHIL @I1@
+Level Number : 1
+CHIL is Valid Tag
+
+1 CHIL @I7@
+Level Number : 1
+CHIL is Valid Tag
+
+1 CHIL @I8@
+Level Number : 1
+CHIL is Valid Tag
+
+1 _CURRENT Y
+Level Number : 1
+_CUR is Invalid Tag
+
+0 @F3@ FAM
+Level Number : 0
+@F3@ is Valid Tag
+
+1 HUSB @I5@
+Level Number : 1
+HUSB is Valid Tag
+
+1 WIFE @I6@
+Level Number : 1
+WIFE is Valid Tag
+
+1 CHIL @I4@
+Level Number : 1
+CHIL is Valid Tag
+
+1 _CURRENT Y
+Level Number : 1
+_CUR is Invalid Tag
+
+0 TRLR
+Level Number : 0
+TRLR is Valid Tag
+

@@ -125,6 +125,17 @@ public class Gedcom {
 		}
 		System.out.println("Total Number of families are " + family);
 		} //[Sprint1_US04_PT]
+	//this will print number of couples [Sprint1_US05_PT]
+	public static int couples;
+	public static void couples(BufferedReader br4) throws IOException {
+		
+		BufferedReader brc = br4;
+		while ((line = brc.readLine()) != null) {
+			if (line.contains("_MARNM")&& line.contains("2") )
+				couples = couples + 1;
+		}
+		System.out.println("Total Number of Couples are " + couples);
+		} //[Sprint1_US05_PT]
 	public static void main(String[] args) throws Exception
 			 {
 		// TODO Auto-generated method stub
@@ -137,16 +148,20 @@ public class Gedcom {
 				"C:/Users/Puneet_lampard/Desktop/Repository/TEAM-1-Family-2-23-Feb-2015.ged");
 		FileReader fin3 = new FileReader (
 				"C:/Users/Puneet_lampard/Desktop/Repository/TEAM-1-Family-2-23-Feb-2015.ged");
+		FileReader fin4 = new FileReader (
+				"C:/Users/Puneet_lampard/Desktop/Repository/TEAM-1-Family-2-23-Feb-2015.ged");
 		BufferedReader br1 = new BufferedReader(fin1);
 		BufferedReader br = new BufferedReader(fin);
 		BufferedReader br2 = new BufferedReader(fin2);
 		BufferedReader br3 = new BufferedReader(fin3);
+		BufferedReader br3 = new BufferedReader(fin4);
 		PrintWriter output = new PrintWriter(new FileWriter("C:/Users/Puneet_lampard/workspace/Gedcom/src/Gedcom/output.txt"));
 		
 		individual(br);
 		birthBeforeDeath(br1);
 		birthdate(br2);
 		family(br3);
+		couples(br4);
 		
 
 	}

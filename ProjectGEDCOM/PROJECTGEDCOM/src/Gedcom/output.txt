@@ -1,0 +1,3 @@
+Total Individual in the family are 14
+Total Birthdate's are 23
+Total Number of families are 12

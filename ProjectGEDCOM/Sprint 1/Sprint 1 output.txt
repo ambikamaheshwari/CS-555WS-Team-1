@@ -1,0 +1,30 @@
+0 head NAME Puneet Trivedi
+0 1 nd NAME SAM ADAMS
+birthDate is = 10 MAY 1990
+0 2 nd NAME JAMES ADAMS
+birthDate is = 10 MAY 1959
+0 3 nd NAME JADE JAMES
+birthDate is = 10 MAY 1960
+0 4 nd NAME RANDY JAMES
+birthDate is = 10 MAY 1938
+0 5 nd NAME SARRAH FOSTER
+birthDate is = 10 MAY 1939
+0 6 nd NAME TRISH STRATUSS
+birthDate is = 10 MAY 1991
+0 7 nd NAME JOHN JAMES
+birthDate is = 10 MAY 1914
+0 8 nd NAME SUSSANE SHAW
+birthDate is = 10 MAY 1915
+0 9 nd NAME JOHN ADAMS
+birthDate is = 10 MAY 1938
+0 10 nd NAME SANDRA BULLOCK
+birthDate is = 10 MAY 1939
+0 11 nd NAME DWAYNE ADAMS
+birthDate is = 10 MAY 1914
+0 12 nd NAME NIKKI BELLA
+birthDate is = 10 MAY 1915
+0 13 nd NAME JAMESON ADAMS
+birthDate is = 10 MAY 2020
+0 14 nd NAME STELLA ADAMS
+birthDate is = 10 MAY 2020
+0 f1 fam0 f2 fam0 f3 fam0 f4 fam0 f5 fam0 f6 fam

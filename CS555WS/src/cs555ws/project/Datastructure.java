@@ -221,3 +221,40 @@ public void MarriageBeforeBirth(String file){
 }
 
 }
+//Printing number of birthdate's
+//PT_Sprint1_US4
+public void birthcount(String file) {
+	int birthDate = individuals.size();
+	System.out.println("Total number of Birthdates are :"+birthDate);	
+}
+
+//Printing number of deathDate's
+//PT_Sprint2_US1
+public void deathcount(String file) {
+	for(int i=0; i < families.size(); i++){
+		 individual indObj = individuals.get(i);
+		 String name = indObj.getName();
+		 String surName = indObj.getSurName();
+		 String deathdate = indObj.getDeathDate();
+		 if(deathdate != null){
+		 String deathyear[] = deathdate.split(" ");
+		 System.out.println("The DeathDates are:"+" "+indObj.getDeathDate() +", " +indObj.getName());
+		 
+		 }
+		}
+}
+
+//Printing number of brithDate's
+//PT_Sprint2_US2
+public void birthdatecount(String file) {
+	for(int i=0; i < families.size(); i++){
+		 individual indObj = individuals.get(i);
+		 String birthdate = indObj.getBirthDate();
+		 String name = indObj.getName();
+		 String surName = indObj.getSurName();
+		 if(birthdate != null){
+		 String birthyear[] = birthdate.split(" ");
+		 System.out.println("The BirthDates are:"+" "+indObj.getBirthDate() +", " +indObj.getName());
+		 }
+		}
+}

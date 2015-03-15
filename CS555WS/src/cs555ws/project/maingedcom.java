@@ -12,6 +12,9 @@ public class maingedcom {
 		//ds.birthBeforeDeath("C:/Users/Ambika/Documents/GitHub/CS-555WS-Team-1/TEAM-1-Family-2-23-Feb-2015.ged");
 		ds.DeathBeforeMarriage("C:/Users/Ambika/Documents/GitHub/CS-555WS-Team-1/TEAM-1-Family-2-23-Feb-2015.ged");
 		//ds.MarriageBeforeBirth("C:/Users/Ambika/Documents/GitHub/CS-555WS-Team-1/TEAM-1-Family-2-23-Feb-2015.ged");
-		 
+		 ds.famcount("C:/Users/Ambika/Documents/GitHub/CS-555WS-Team-1/TEAM-1-Family-2-23-Feb-2015.ged");
+                 ds.birthcount("C:/Users/Ambika/Documents/GitHub/CS-555WS-Team-1/TEAM-1-Family-2-23-Feb-2015.ged");
+		ds.deathcount("C:/Users/Ambika/Documents/GitHub/CS-555WS-Team-1/TEAM-1-Family-2-23-Feb-2015.ged");
+		ds.birthdatecount("C:/Users/Ambika/Documents/GitHub/CS-555WS-Team-1/TEAM-1-Family-2-23-Feb-2015.ged");
 	}
 }

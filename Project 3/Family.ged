@@ -1,106 +1,24 @@
-0 NOTE puneetlampard/CS-555WS-Team-1
 0 NOTE Ambika Maheshwari
-0 HEAD
-1 SOUR Family Echo
-2 WWW http://www.familyecho.com/
-1 FILE Family 2
-1 DATE 3 FEB 2015
-1 DEST ANSTFILE
-1 GEDC
-2 VERS 5.5.1
-2 FORM LINEAGE-LINKED
-1 SUBM @I1@
-2 NAME Ambika Maheshwari
-1 SUBN
-1 CHAR UTF-8
-0 @I1@ INDI
-1 NAME Ambika /Maheshwari/
-2 GIVN Ambika
-2 SURN Maheshwari
-2 _MARNM Maheshwari
-1 SEX F
-1 BIRT
-2 DATE 21 SEP 1989
-1 FAMS @F1@
-1 FAMC @F2@
-0 @I2@ INDI
-1 NAME Sushil /Maheshwari/
-2 GIVN Sushil
-2 SURN Maheshwari
-2 _MARNM Maheshwari
-1 SEX M
-1 BIRT
-2 DATE 8 AUG 1966
-1 FAMS @F2@
-0 @I3@ INDI
-1 NAME Shashi /Rathi/
-2 GIVN Shashi
-2 SURN Rathi
-2 _MARNM Maheshwari
-1 SEX F
-1 BIRT
-2 DATE 5 JAN 1966
-1 FAMS @F2@
-0 @I4@ INDI
-1 NAME Jeet /Damania/
-2 GIVN Jeet
-2 SURN Damania
-2 _MARNM Damania
-1 SEX M
-1 BIRT
-2 DATE 5 FEB 1989
-1 FAMS @F1@
-1 FAMC @F3@
-0 @I5@ INDI
-1 NAME Manoj /Damania/
-2 GIVN Manoj
-2 SURN Damania
-2 _MARNM Damania
-1 SEX M
-1 BIRT
-2 DATE 21 APR 1960
-1 FAMS @F3@
 0 @I6@ INDI
-1 NAME Meeta /Kadakia/
-2 GIVN Meeta
-2 SURN Kadakia
-2 _MARNM Damania
-1 SEX F
+1 NAME Basant /Rathi/
+2 GIVN Basant
+2 SURN Rathi
+2 _MARNM Rathi
+1 SEX M
 1 BIRT
-2 DATE 23 SEP 1967
-1 FAMS @F3@
-0 @I7@ INDI
-1 NAME Priyanka /Maheshwari/
-2 GIVN Priyanka
-2 SURN Maheshwari
-2 _MARNM Maheshwari
-1 SEX F
-1 BIRT
-2 DATE 21 JAN 1995
-1 FAMC @F2@
-0 @I8@ INDI
-1 NAME Harshit /Maheshwari/
-2 GIVN Harshit
+2 DATE 11 FEB 1945
+1 DEAT Y
+2 DATE 10 FEB 2009
+1 FAMS @F4@
+0 @I16@ INDI
+1 NAME Saligram /Maheshwari/
+2 GIVN Saligram
 2 SURN Maheshwari
 2 _MARNM Maheshwari
 1 SEX M
 1 BIRT
-2 DATE 16 SEP 1995
-1 FAMC @F2@
-0 @F1@ FAM
-1 HUSB @I4@
-1 WIFE @I1@
-1 _CURRENT Y
-0 @F2@ FAM
-1 HUSB @I2@
-1 WIFE @I3@
-1 CHIL @I1@
-1 CHIL @I7@
-1 CHIL @I8@
-1 _CURRENT Y
-0 @F3@ FAM
-1 HUSB @I5@
-1 WIFE @I6@
-1 CHIL @I4@
-1 _CURRENT Y
-0 TRLR
+2 DATE 17 OCT 1945
+1 DEAT Y
+2 DATE 14 SEP 1985
+1 FAMS @F3@
+

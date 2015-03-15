@@ -1,0 +1,768 @@
+0 HEAD
+0
+HEAD
+Invalid tag
+1 SOUR Family Echo
+1
+SOUR
+Invalid tag
+2 WWW http://www.familyecho.com/
+2
+WWW
+Invalid tag
+1 FILE Family 2
+1
+FILE
+Invalid tag
+1 DATE 23 FEB 2015
+1
+DATE
+Invalid tag
+1 DEST ANSTFILE
+1
+DEST
+Invalid tag
+1 GEDC
+1
+GEDC
+Invalid tag
+2 VERS 5.5.1
+2
+VERS
+Invalid tag
+2 FORM LINEAGE-LINKED
+2
+FORM
+Invalid tag
+1 SUBM @I1@
+1
+SUBM
+Invalid tag
+2 NAME Puneet Trivedi
+2
+NAME
+Invalid tag
+1 SUBN
+1
+SUBN
+Invalid tag
+1 CHAR UTF-8
+1
+CHAR
+Invalid tag
+0 @I1@ INDI
+0
+@I1@
+Invalid tag
+1 NAME SAM /ADAMS/
+1
+NAME
+Invalid tag
+2 GIVN SAM
+2
+GIVN
+Invalid tag
+2 SURN ADAMS
+2
+SURN
+Invalid tag
+2 _MARNM ADAMS
+2
+_MARNM
+Invalid tag
+1 SEX M
+1
+SEX
+Invalid tag
+1 BIRT
+1
+BIRT
+Invalid tag
+2 DATE 10 MAY 1990
+2
+DATE
+Invalid tag
+1 FAMS @F1@
+1
+FAMS
+Invalid tag
+1 FAMC @F2@
+1
+FAMC
+Invalid tag
+0 @I2@ INDI
+0
+@I2@
+Invalid tag
+1 NAME JAMES /ADAMS/
+1
+NAME
+Invalid tag
+2 GIVN JAMES
+2
+GIVN
+Invalid tag
+2 SURN ADAMS
+2
+SURN
+Invalid tag
+2 _MARNM ADAMS
+2
+_MARNM
+Invalid tag
+1 SEX M
+1
+SEX
+Invalid tag
+1 BIRT
+1
+BIRT
+Invalid tag
+2 DATE 10 MAY 1959
+2
+DATE
+Invalid tag
+1 FAMS @F2@
+1
+FAMS
+Invalid tag
+1 FAMC @F3@
+1
+FAMC
+Invalid tag
+0 @I3@ INDI
+0
+@I3@
+Invalid tag
+1 NAME JADE /JAMES/
+1
+NAME
+Invalid tag
+2 GIVN JADE
+2
+GIVN
+Invalid tag
+2 SURN JAMES
+2
+SURN
+Invalid tag
+2 _MARNM ADAMS
+2
+_MARNM
+Invalid tag
+1 SEX F
+1
+SEX
+Invalid tag
+1 BIRT
+1
+BIRT
+Invalid tag
+2 DATE 10 MAY 1960
+2
+DATE
+Invalid tag
+1 FAMS @F2@
+1
+FAMS
+Invalid tag
+1 FAMC @F4@
+1
+FAMC
+Invalid tag
+0 @I4@ INDI
+0
+@I4@
+Invalid tag
+1 NAME RANDY /JAMES/
+1
+NAME
+Invalid tag
+2 GIVN RANDY
+2
+GIVN
+Invalid tag
+2 SURN JAMES
+2
+SURN
+Invalid tag
+2 _MARNM JAMES
+2
+_MARNM
+Invalid tag
+1 SEX M
+1
+SEX
+Invalid tag
+1 BIRT
+1
+BIRT
+Invalid tag
+2 DATE 10 MAY 1938
+2
+DATE
+Invalid tag
+1 DEAT Y
+1
+DEAT
+Invalid tag
+2 DATE 10 JUN 2008
+2
+DATE
+Invalid tag
+1 FAMS @F4@
+1
+FAMS
+Invalid tag
+1 FAMC @F5@
+1
+FAMC
+Invalid tag
+0 @I5@ INDI
+0
+@I5@
+Invalid tag
+1 NAME SARRAH /FOSTER/
+1
+NAME
+Invalid tag
+2 GIVN SARRAH
+2
+GIVN
+Invalid tag
+2 SURN FOSTER
+2
+SURN
+Invalid tag
+2 _MARNM JAMES
+2
+_MARNM
+Invalid tag
+1 SEX F
+1
+SEX
+Invalid tag
+1 BIRT
+1
+BIRT
+Invalid tag
+2 DATE 10 MAY 1939
+2
+DATE
+Invalid tag
+1 DEAT Y
+1
+DEAT
+Invalid tag
+2 DATE 10 JUN 2009
+2
+DATE
+Invalid tag
+1 FAMS @F4@
+1
+FAMS
+Invalid tag
+0 @I6@ INDI
+0
+@I6@
+Invalid tag
+1 NAME TRISH /STRATUSS/
+1
+NAME
+Invalid tag
+2 GIVN TRISH
+2
+GIVN
+Invalid tag
+2 SURN STRATUSS
+2
+SURN
+Invalid tag
+2 _MARNM ADAMS
+2
+_MARNM
+Invalid tag
+1 SEX F
+1
+SEX
+Invalid tag
+1 BIRT
+1
+BIRT
+Invalid tag
+2 DATE 10 MAY 1991
+2
+DATE
+Invalid tag
+1 FAMS @F1@
+1
+FAMS
+Invalid tag
+0 @I7@ INDI
+0
+@I7@
+Invalid tag
+1 NAME JOHN /JAMES/
+1
+NAME
+Invalid tag
+2 GIVN JOHN
+2
+GIVN
+Invalid tag
+2 SURN JAMES
+2
+SURN
+Invalid tag
+2 _MARNM JAMES
+2
+_MARNM
+Invalid tag
+1 SEX M
+1
+SEX
+Invalid tag
+1 BIRT
+1
+BIRT
+Invalid tag
+2 DATE 10 MAY 1914
+2
+DATE
+Invalid tag
+1 DEAT Y
+1
+DEAT
+Invalid tag
+2 DATE 10 JUN 1984
+2
+DATE
+Invalid tag
+1 FAMS @F5@
+1
+FAMS
+Invalid tag
+0 @I8@ INDI
+0
+@I8@
+Invalid tag
+1 NAME SUSSANE /SHAW/
+1
+NAME
+Invalid tag
+2 GIVN SUSSANE
+2
+GIVN
+Invalid tag
+2 SURN SHAW
+2
+SURN
+Invalid tag
+2 _MARNM JAMES
+2
+_MARNM
+Invalid tag
+1 SEX F
+1
+SEX
+Invalid tag
+1 BIRT
+1
+BIRT
+Invalid tag
+2 DATE 10 MAY 1915
+2
+DATE
+Invalid tag
+1 DEAT Y
+1
+DEAT
+Invalid tag
+2 DATE 10 JUN 1985
+2
+DATE
+Invalid tag
+1 FAMS @F5@
+1
+FAMS
+Invalid tag
+0 @I9@ INDI
+0
+@I9@
+Invalid tag
+1 NAME JOHN /ADAMS/
+1
+NAME
+Invalid tag
+2 GIVN JOHN
+2
+GIVN
+Invalid tag
+2 SURN ADAMS
+2
+SURN
+Invalid tag
+2 _MARNM ADAMS
+2
+_MARNM
+Invalid tag
+1 SEX M
+1
+SEX
+Invalid tag
+1 BIRT
+1
+BIRT
+Invalid tag
+2 DATE 10 MAY 1938
+2
+DATE
+Invalid tag
+1 DEAT Y
+1
+DEAT
+Invalid tag
+2 DATE 10 JUN 2008
+2
+DATE
+Invalid tag
+1 FAMS @F3@
+1
+FAMS
+Invalid tag
+1 FAMC @F6@
+1
+FAMC
+Invalid tag
+0 @I10@ INDI
+0
+@I10@
+Invalid tag
+1 NAME SANDRA /BULLOCK/
+1
+NAME
+Invalid tag
+2 GIVN SANDRA
+2
+GIVN
+Invalid tag
+2 SURN BULLOCK
+2
+SURN
+Invalid tag
+2 _MARNM ADAMS
+2
+_MARNM
+Invalid tag
+1 SEX F
+1
+SEX
+Invalid tag
+1 BIRT
+1
+BIRT
+Invalid tag
+2 DATE 10 MAY 1939
+2
+DATE
+Invalid tag
+1 DEAT Y
+1
+DEAT
+Invalid tag
+2 DATE 10 JUN 2009
+2
+DATE
+Invalid tag
+1 FAMS @F3@
+1
+FAMS
+Invalid tag
+0 @I11@ INDI
+0
+@I11@
+Invalid tag
+1 NAME DWAYNE /ADAMS/
+1
+NAME
+Invalid tag
+2 GIVN DWAYNE
+2
+GIVN
+Invalid tag
+2 SURN ADAMS
+2
+SURN
+Invalid tag
+2 _MARNM ADAMS
+2
+_MARNM
+Invalid tag
+1 SEX M
+1
+SEX
+Invalid tag
+1 BIRT
+1
+BIRT
+Invalid tag
+2 DATE 10 MAY 1914
+2
+DATE
+Invalid tag
+1 DEAT Y
+1
+DEAT
+Invalid tag
+2 DATE 10 JUN 1984
+2
+DATE
+Invalid tag
+1 FAMS @F6@
+1
+FAMS
+Invalid tag
+0 @I12@ INDI
+0
+@I12@
+Invalid tag
+1 NAME NIKKI /BELLA/
+1
+NAME
+Invalid tag
+2 GIVN NIKKI
+2
+GIVN
+Invalid tag
+2 SURN BELLA
+2
+SURN
+Invalid tag
+2 _MARNM ADAMS
+2
+_MARNM
+Invalid tag
+1 SEX F
+1
+SEX
+Invalid tag
+1 BIRT
+1
+BIRT
+Invalid tag
+2 DATE 10 MAY 1915
+2
+DATE
+Invalid tag
+1 DEAT Y
+1
+DEAT
+Invalid tag
+2 DATE 10 JUN 1985
+2
+DATE
+Invalid tag
+1 FAMS @F6@
+1
+FAMS
+Invalid tag
+0 @I13@ INDI
+0
+@I13@
+Invalid tag
+1 NAME JAMESON /ADAMS/
+1
+NAME
+Invalid tag
+2 GIVN JAMESON
+2
+GIVN
+Invalid tag
+2 SURN ADAMS
+2
+SURN
+Invalid tag
+2 _MARNM ADAMS
+2
+_MARNM
+Invalid tag
+1 SEX M
+1
+SEX
+Invalid tag
+1 BIRT
+1
+BIRT
+Invalid tag
+2 DATE 10 MAY 2020
+2
+DATE
+Invalid tag
+1 FAMC @F1@
+1
+FAMC
+Invalid tag
+0 @I14@ INDI
+0
+@I14@
+Invalid tag
+1 NAME STELLA /ADAMS/
+1
+NAME
+Invalid tag
+2 GIVN STELLA
+2
+GIVN
+Invalid tag
+2 SURN ADAMS
+2
+SURN
+Invalid tag
+2 _MARNM ADAMS
+2
+_MARNM
+Invalid tag
+1 SEX F
+1
+SEX
+Invalid tag
+1 BIRT
+1
+BIRT
+Invalid tag
+2 DATE 10 MAY 2020
+2
+DATE
+Invalid tag
+1 FAMC @F1@
+1
+FAMC
+Invalid tag
+0 @F1@ FAM
+0
+@F1@
+Invalid tag
+1 HUSB @I1@
+1
+HUSB
+Invalid tag
+1 WIFE @I6@
+1
+WIFE
+Invalid tag
+1 CHIL @I13@
+1
+CHIL
+Invalid tag
+1 CHIL @I14@
+1
+CHIL
+Invalid tag
+1 _CURRENT Y
+1
+_CURRENT
+Invalid tag
+0 @F2@ FAM
+0
+@F2@
+Invalid tag
+1 HUSB @I2@
+1
+HUSB
+Invalid tag
+1 WIFE @I3@
+1
+WIFE
+Invalid tag
+1 CHIL @I1@
+1
+CHIL
+Invalid tag
+1 _CURRENT Y
+1
+_CURRENT
+Invalid tag
+0 @F3@ FAM
+0
+@F3@
+Invalid tag
+1 HUSB @I9@
+1
+HUSB
+Invalid tag
+1 WIFE @I10@
+1
+WIFE
+Invalid tag
+1 CHIL @I2@
+1
+CHIL
+Invalid tag
+1 _CURRENT Y
+1
+_CURRENT
+Invalid tag
+0 @F4@ FAM
+0
+@F4@
+Invalid tag
+1 HUSB @I4@
+1
+HUSB
+Invalid tag
+1 WIFE @I5@
+1
+WIFE
+Invalid tag
+1 CHIL @I3@
+1
+CHIL
+Invalid tag
+1 _CURRENT Y
+1
+_CURRENT
+Invalid tag
+0 @F5@ FAM
+0
+@F5@
+Invalid tag
+1 HUSB @I7@
+1
+HUSB
+Invalid tag
+1 WIFE @I8@
+1
+WIFE
+Invalid tag
+1 CHIL @I4@
+1
+CHIL
+Invalid tag
+1 _CURRENT Y
+1
+_CURRENT
+Invalid tag
+0 @F6@ FAM
+0
+@F6@
+Invalid tag
+1 HUSB @I11@
+1
+HUSB
+Invalid tag
+1 WIFE @I12@
+1
+WIFE
+Invalid tag
+1 CHIL @I9@
+1
+CHIL
+Invalid tag
+1 _CURRENT Y
+1
+_CURRENT
+Invalid tag
+0 TRLR
+0
+TRLR
+Invalid tag

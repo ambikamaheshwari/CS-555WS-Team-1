@@ -22,7 +22,7 @@ public class Datastructure {
 	 private String getXrefId(String xrefId){
 	  return xrefId.replace("@", "");
 	 }
-	//AM_Sprint1_USread from a file 
+	//read from a file 
 	 public void readFile(String file) throws IOException {
 
 	  FileInputStream fis = null;
@@ -175,7 +175,7 @@ public void birthBeforeDeath(String file){
 	 }
 	}
 }
-//AM_Sprint2_US03
+//AM_Sprint2_US0
 public void DeathBeforeMarriage(String file){
 	for(int i=0; i < individuals.size(); i++){
 		for(int j=0;j<families.size();j++)
@@ -197,7 +197,7 @@ public void DeathBeforeMarriage(String file){
 	 }}
 }
 
-//AM_Sprint2_US04
+
 public void MarriageBeforeBirth(String file){
 	for(int i=0; i < individuals.size(); i++){
 		for(int j=0;j<families.size();j++)

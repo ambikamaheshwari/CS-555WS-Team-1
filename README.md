@@ -19,5 +19,7 @@ Project 6
 CS-555WS-Team-1/CS555WS/src/cs555ws/project/maingedcom.java is the main file
 1. Checking Individial marriage date is before death date.
 2. Checking Individual birth date is before marriage date
+3. Printing out the death date and name of the person died.
+4. Printing out the birth date and name of the person born.
 
 

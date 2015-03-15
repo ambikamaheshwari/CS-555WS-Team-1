@@ -7,5 +7,17 @@ Project 3
 Used GEDCOM file from project 2, and wrote a Java program to store information about individual and families in internal data, After reading all the data, printing the names of the husbands and wifes of each family in order of their unique identifier. 
 
 Project 4 
-For sprint 1, Source of the Userstories can be found in projectGEDCOM > PROJECTGEDCOM > src/Gedcom > Gedcom.java file
+CS-555WS-Team-1/CS555WS/src/cs555ws/project/maingedcom.java is the main file
+1. Implemented Datastructure for storing information from GEDCOM file.
+2. Checking Death should not happen before birth.
+3. Printing Number of Individual in the family.
+4. Printing Birthdate with Individual Name.
+5. Printing Number of Families.
+6. Printing number of couples.
+
+Project 6
+CS-555WS-Team-1/CS555WS/src/cs555ws/project/maingedcom.java is the main file
+1. Checking Individial marriage date is before death date.
+2. Checking Individual birth date is before marriage date
+
 

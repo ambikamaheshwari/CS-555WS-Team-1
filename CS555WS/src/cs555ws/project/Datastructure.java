@@ -129,8 +129,19 @@ public class Datastructure {
 				    			String weddingDate = nextLine[2]+" "+nextLine[3]+" "+nextLine[4];
 				  				fam.setWeddingDate(weddingDate);
 		  				}
-		  		
-				}
+		  				}
+				    		  else if ("DIV".equals(tag))
+				  				{
+				  					line = br.readLine();
+				  					String[] nextLine = (line.split("\\s+"));
+				  					if(nextLine[1].equals("DATE"))
+				  					{
+				  						String divorceDate = nextLine[2]+" "+nextLine[3]+" "+nextLine[4];
+				  						fam.setDivorceDate(divorceDate);
+				  					}
+				
+				  				}
+				
 			  }	
 	    	}
 	   
@@ -175,7 +186,7 @@ public void birthBeforeDeath(String file){
 	 }
 	}
 }
-//AM_Sprint2_US0
+//AM_Sprint2_US06
 public void DeathBeforeMarriage(String file){
 	for(int i=0; i < individuals.size(); i++){
 		for(int j=0;j<families.size();j++)
@@ -197,7 +208,7 @@ public void DeathBeforeMarriage(String file){
 	 }}
 }
 
-
+//AM_Sprint2_US07
 public void MarriageBeforeBirth(String file){
 	for(int i=0; i < individuals.size(); i++){
 		for(int j=0;j<families.size();j++)
@@ -219,42 +230,43 @@ public void MarriageBeforeBirth(String file){
 	}
 	 }}
 }
-
-}
-//Printing number of birthdate's
-//PT_Sprint1_US4
-public void birthcount(String file) {
-	int birthDate = individuals.size();
-	System.out.println("Total number of Birthdates are :"+birthDate);	
-}
-
-//Printing number of deathDate's
-//PT_Sprint2_US1
-public void deathcount(String file) {
-	for(int i=0; i < families.size(); i++){
+//HB_Sprint2_US08
+	public void divorceAfterDeath(String file){
+		for(int i=0; i < individuals.size(); i++){
+			for(int j=0;j<families.size();j++)
+			{
 		 individual indObj = individuals.get(i);
-		 String name = indObj.getName();
-		 String surName = indObj.getSurName();
-		 String deathdate = indObj.getDeathDate();
-		 if(deathdate != null){
-		 String deathyear[] = deathdate.split(" ");
-		 System.out.println("The DeathDates are:"+" "+indObj.getDeathDate() +", " +indObj.getName());
+		 family famObj = families.get(j);
+		 String deathDate = indObj.getDeathDate();
+		 String divorceDate = famObj.getDivorceDate();
+		 if(deathDate != null && divorceDate!=null){
+			 String deathyear[] = deathDate.split(" ");
+		String year[] = divorceDate.split(" ");
+		 if (Integer.parseInt(deathyear[2]) < Integer.parseInt(year[2]))
+			 System.out.println("Divorce cannot happen after death"+ indObj.getGivenName()+" "+ indObj.getSurName());
 		 
 		 }
-		}
-}
-
-//Printing number of brithDate's
-//PT_Sprint2_US2
-public void birthdatecount(String file) {
-	for(int i=0; i < families.size(); i++){
+		}}
+	}
+//HB_Sprint2_US09
+	public void divorceBeforeBirth(String file){
+		for(int i=0; i < individuals.size(); i++){
+			for(int j=0;j<families.size();j++)
+			{
 		 individual indObj = individuals.get(i);
-		 String birthdate = indObj.getBirthDate();
-		 String name = indObj.getName();
-		 String surName = indObj.getSurName();
-		 if(birthdate != null){
-		 String birthyear[] = birthdate.split(" ");
-		 System.out.println("The BirthDates are:"+" "+indObj.getBirthDate() +", " +indObj.getName());
+		 family famObj = families.get(j);
+		 String birthDate = indObj.getBirthDate();
+		 String divorceDate = famObj.getDivorceDate();
+		 if(birthDate != null && divorceDate!=null){
+			 String birthyear[] = birthDate.split(" ");
+		String year[] = divorceDate.split(" ");
+		 if (Integer.parseInt(birthyear[2]) > Integer.parseInt(year[2]))
+			 System.out.println("Divorce cannot happen before birth" + indObj.getGivenName()+" "+ indObj.getSurName());
+		 		i = i+1;
 		 }
 		}
+
 }
+
+
+}}

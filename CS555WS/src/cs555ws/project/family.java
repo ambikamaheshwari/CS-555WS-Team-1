@@ -5,7 +5,7 @@ public class family {
 	 private String husband;
 	 private String wife;
 	 private String weddingDate;
-	
+	 private String divorceDate;
 	 public String getIdentifier() {
 	  return identifier;
 	 }
@@ -32,5 +32,12 @@ public class family {
 		{
 			return weddingDate;
 		}
-		
+	public void setDivorceDate(String divorceDate)
+		{
+			this.divorceDate=divorceDate;
+		}
+		public String getDivorceDate()
+		{
+			return divorceDate;
+		}
 	}

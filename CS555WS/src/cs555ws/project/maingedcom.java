@@ -1,5 +1,6 @@
 package cs555ws.project;
 
+
 import java.io.*;
 public class maingedcom {
 
@@ -7,14 +8,14 @@ public class maingedcom {
 		// TODO Auto-generated method stub
 		 
 		Datastructure ds = new Datastructure();
-		ds.readFile("C:/Users/Ambika/Documents/GitHub/CS-555WS-Team-1/TEAM-1-Family-2-23-Feb-2015.ged");
-		ds.indicount("C:/Users/Ambika/Documents/GitHub/CS-555WS-Team-1/TEAM-1-Family-2-23-Feb-2015.ged");
-		//ds.birthBeforeDeath("C:/Users/Ambika/Documents/GitHub/CS-555WS-Team-1/TEAM-1-Family-2-23-Feb-2015.ged");
-		ds.DeathBeforeMarriage("C:/Users/Ambika/Documents/GitHub/CS-555WS-Team-1/TEAM-1-Family-2-23-Feb-2015.ged");
-		//ds.MarriageBeforeBirth("C:/Users/Ambika/Documents/GitHub/CS-555WS-Team-1/TEAM-1-Family-2-23-Feb-2015.ged");
-		 ds.famcount("C:/Users/Ambika/Documents/GitHub/CS-555WS-Team-1/TEAM-1-Family-2-23-Feb-2015.ged");
-                 ds.birthcount("C:/Users/Ambika/Documents/GitHub/CS-555WS-Team-1/TEAM-1-Family-2-23-Feb-2015.ged");
-		ds.deathcount("C:/Users/Ambika/Documents/GitHub/CS-555WS-Team-1/TEAM-1-Family-2-23-Feb-2015.ged");
-		ds.birthdatecount("C:/Users/Ambika/Documents/GitHub/CS-555WS-Team-1/TEAM-1-Family-2-23-Feb-2015.ged");
+		ds.readFile("Divorcebeforedeath.ged");
+		ds.indicount("Divorcebeforedeath.ged");
+		ds.birthBeforeDeath("Divorcebeforedeath.ged");
+		ds.divorceAfterDeath("Divorcebeforedeath.ged");
+		ds.divorceBeforeBirth("Divorcebeforedeath.ged");
+		ds.DeathBeforeMarriage("Divorcebeforedeath.ged");
+		//ds.DeathBeforeMarriage("C:/Users/Ambika/Documents/GitHub/CS-555WS-Team-1/TEAM-1-Family-2-23-Feb-2015.ged");
+	
+		 
 	}
 }

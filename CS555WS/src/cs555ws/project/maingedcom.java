@@ -8,14 +8,17 @@ public class maingedcom {
 		// TODO Auto-generated method stub
 		 
 		Datastructure ds = new Datastructure();
-		ds.readFile("Divorcebeforedeath.ged");
-		ds.indicount("Divorcebeforedeath.ged");
-		ds.birthBeforeDeath("Divorcebeforedeath.ged");
-		ds.divorceAfterDeath("Divorcebeforedeath.ged");
-		ds.divorceBeforeBirth("Divorcebeforedeath.ged");
-		ds.DeathBeforeMarriage("Divorcebeforedeath.ged");
-		//ds.DeathBeforeMarriage("C:/Users/Ambika/Documents/GitHub/CS-555WS-Team-1/TEAM-1-Family-2-23-Feb-2015.ged");
-	
-		 
+		ds.readFile("final.ged");
+		ds.indicount("final.ged");
+		ds.birthBeforeDeath("final.ged");
+        ds.famcount("final.ged");
+		ds.birthcount("final.ged");
+		ds.deathcount("final.ged");
+		ds.birthdatecount("final.ged");
+		ds.DivorceBeforeMarriage("final.ged");
+		ds.DeathBeforeMarriage("final.ged");
+		ds.divorceAfterDeath("final.ged");
+		ds.divorceBeforeBirth("final.ged");
+		//ds.MarriageofSamePerson("final.ged");
 	}
 }

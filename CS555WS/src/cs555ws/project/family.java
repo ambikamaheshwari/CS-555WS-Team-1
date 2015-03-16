@@ -4,8 +4,9 @@ public class family {
 	 private String identifier;
 	 private String husband;
 	 private String wife;
-	 private String weddingDate;
 	 private String divorceDate;
+	 private String weddingDate;
+	 
 	 public String getIdentifier() {
 	  return identifier;
 	 }
@@ -24,20 +25,16 @@ public class family {
 	 public void setWife(String wife) {
 	  this.wife = wife;
 	 }
-	 public void setWeddingDate(String weddingDate)
-		{
-			this.weddingDate=weddingDate;
-		}
-		public String getWeddingDate()
-		{
-			return weddingDate;
-		}
-	public void setDivorceDate(String divorceDate)
-		{
-			this.divorceDate=divorceDate;
-		}
-		public String getDivorceDate()
-		{
-			return divorceDate;
-		}
+	 public String getDivorceDate() {
+		  return divorceDate;
+		 }
+		 public void setDivorceDate(String divorceDate) {
+		  this.divorceDate = divorceDate;
+		 }
+		 public String getWeddingDate() {
+			  return weddingDate;
+			 }
+			 public void setWeddingDate(String weddingDate) {
+			  this.weddingDate = weddingDate;
+			 }	
 	}

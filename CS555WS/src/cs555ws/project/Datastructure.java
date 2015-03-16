@@ -230,6 +230,7 @@ public void MarriageBeforeBirth(String file){
 	}
 	 }}
 }
+
 //HB_Sprint2_US08
 	public void divorceAfterDeath(String file){
 		for(int i=0; i < individuals.size(); i++){
@@ -243,11 +244,12 @@ public void MarriageBeforeBirth(String file){
 			 String deathyear[] = deathDate.split(" ");
 		String year[] = divorceDate.split(" ");
 		 if (Integer.parseInt(deathyear[2]) < Integer.parseInt(year[2]))
-			 System.out.println("Divorce cannot happen after death"+ indObj.getGivenName()+" "+ indObj.getSurName());
+			 System.out.println("Divorce cannot happen after death" +" "+ indObj.getGivenName()+" "+ indObj.getSurName());
 		 
 		 }
-		}}
-	}
+			}
+		}
+		}
 //HB_Sprint2_US09
 	public void divorceBeforeBirth(String file){
 		for(int i=0; i < individuals.size(); i++){
@@ -261,12 +263,100 @@ public void MarriageBeforeBirth(String file){
 			 String birthyear[] = birthDate.split(" ");
 		String year[] = divorceDate.split(" ");
 		 if (Integer.parseInt(birthyear[2]) > Integer.parseInt(year[2]))
-			 System.out.println("Divorce cannot happen before birth" + indObj.getGivenName()+" "+ indObj.getSurName());
+			 System.out.println("Divorce cannot happen before birth" +" "+ indObj.getGivenName()+" "+ indObj.getSurName());
 		 		i = i+1;
 		 }
+			}
 		}
-
+	}
+//Printing number of families
+//PT_Sprint1_US3
+public void famcount(String file) {
+	int fam = families.size();
+	System.out.println("Total number of Families are :"+fam);
 }
 
+//Printing number of birthdate's
+//PT_Sprint1_US4
+public void birthcount(String file) {
+	int birthDate = individuals.size();
+	System.out.println("Total number of Birthdates are :"+birthDate);	
+}
 
-}}
+//Printing number of deathDate's
+//PT_Sprint2_US10
+public void deathcount(String file) {
+	for(int i=0; i < families.size(); i++){
+		 individual indObj = individuals.get(i);
+		 String name = indObj.getName();
+		 String surName = indObj.getSurName();
+		 String deathdate = indObj.getDeathDate();
+		 if(deathdate != null){
+		 String deathyear[] = deathdate.split(" ");
+		 System.out.println("The DeathDates are:"+" "+indObj.getDeathDate() +", " + indObj.getGivenName()+" "+ indObj.getSurName());
+		 
+		 }
+		}
+}
+
+//Printing number of brithDate's
+//PT_Sprint2_US11
+public void birthdatecount(String file) {
+	for(int i=0; i < families.size(); i++){
+		 individual indObj = individuals.get(i);
+		 String birthdate = indObj.getBirthDate();
+		 String name = indObj.getName();
+		 String surName = indObj.getSurName();
+		 if(birthdate != null){
+		 String birthyear[] = birthdate.split(" ");
+		 System.out.println("The BirthDates are:"+" "+indObj.getBirthDate() +", " + indObj.getGivenName()+" "+ indObj.getSurName());
+		 }
+		}
+}
+
+//SA_Sprint2_US12
+public void MarriageofSamePerson(String file){
+	for(int i=0; i < individuals.size(); i++){
+		for(int j=0;j<families.size();j++)
+		{
+	 individual indObj = individuals.get(i);
+	 family famObj = families.get(j);
+	 
+	String birthdate= indObj.getBirthDate();
+	String weddingdate= famObj.getWeddingDate();
+	if(birthdate != null && weddingdate!=null){
+		 String birthyear[] = birthdate.split(" ");
+		
+	String year[] = weddingdate.split(" ");
+
+	if ((Integer.parseInt(birthyear[2]) ==Integer.parseInt(birthyear[2])) && (Integer.parseInt(year[2])==Integer.parseInt(year[2])))
+		 System.out.println("Cannot marry same person " + indObj.getGivenName()+" "+ indObj.getSurName());
+	if(i < individuals.size())
+		i+=1;
+	}
+	 }}
+}
+//SA_Sprint2_US13
+public void DivorceBeforeMarriage(String file){
+	for(int i=0; i < individuals.size(); i++){
+		for(int j=0;j<families.size();j++)
+		{
+	 individual indObj = individuals.get(i);
+	 family famObj = families.get(j);
+	 
+	
+    String divorcedate = famObj.getDivorceDate();
+	String weddingdate= famObj.getWeddingDate();
+	if(divorcedate != null && weddingdate!=null){
+	String divorceyear[] = divorcedate.split(" ");
+	String year[] = weddingdate.split(" ");
+
+	if (Integer.parseInt(divorceyear[2]) < Integer.parseInt(year[2]))
+	System.out.println("Divorce cannot happen before Wedding for "+ indObj.getGivenName()+" " +indObj.getSurName());
+	i+=1;
+	j+=1;
+	}
+	 }}
+}
+}
+

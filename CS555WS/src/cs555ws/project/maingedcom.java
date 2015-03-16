@@ -10,15 +10,17 @@ public class maingedcom {
 		Datastructure ds = new Datastructure();
 		ds.readFile("final.ged");
 		ds.indicount("final.ged");
-		ds.birthBeforeDeath("final.ged");
-        ds.famcount("final.ged");
-		ds.birthcount("final.ged");
-		ds.deathcount("final.ged");
+		ds.famcount("final.ged");
 		ds.birthdatecount("final.ged");
+		ds.deathcount("final.ged");
+		ds.birthcount("final.ged");
+		ds.birthBeforeDeath("final.ged");
 		ds.DivorceBeforeMarriage("final.ged");
 		ds.DeathBeforeMarriage("final.ged");
+		ds.MarriageBeforeBirth("final.ged");
 		ds.divorceAfterDeath("final.ged");
 		ds.divorceBeforeBirth("final.ged");
-		//ds.MarriageofSamePerson("final.ged");
+		ds.MarriageofSamePerson("final.ged");
 	}
 }
+

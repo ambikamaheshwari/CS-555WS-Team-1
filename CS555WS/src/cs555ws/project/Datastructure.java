@@ -165,7 +165,6 @@ public class Datastructure {
 //Printing whether number of individuals.
 //AM_Sprint1_US02
 public void indicount(String file) {
-	// TODO Auto-generated method stub
 	int indi = individuals.size();
 	System.out.println("Total number of Individual are : "+indi);
 }
@@ -219,7 +218,7 @@ public void MarriageBeforeBirth(String file){
 	String birthdate= indObj.getBirthDate();
 	String weddingdate= famObj.getWeddingDate();
 	if(birthdate != null && weddingdate!=null){
-		 String birthyear[] = birthdate.split(" ");
+		String birthyear[] = birthdate.split(" ");
 		
 	String year[] = weddingdate.split(" ");
 
@@ -244,9 +243,9 @@ public void MarriageBeforeBirth(String file){
 			 String deathyear[] = deathDate.split(" ");
 		String year[] = divorceDate.split(" ");
 		 if (Integer.parseInt(deathyear[2]) < Integer.parseInt(year[2]))
-			 System.out.println("Divorce cannot happen after death" +" "+ indObj.getGivenName()+" "+ indObj.getSurName());
+		 System.out.println("Divorce cannot happen after death" +" "+ indObj.getGivenName()+" "+ indObj.getSurName());
 		 
-		 }
+		}
 			}
 		}
 		}
@@ -266,7 +265,7 @@ public void MarriageBeforeBirth(String file){
 			 System.out.println("Divorce cannot happen before birth" +" "+ indObj.getGivenName()+" "+ indObj.getSurName());
 		 		i = i+1;
 		 }
-			}
+		}
 		}
 	}
 //Printing number of families
@@ -358,5 +357,37 @@ public void DivorceBeforeMarriage(String file){
 	}
 	 }}
 }
+//Printing number of marriage's
+//PT_Sprint3_US18
+	public void weddingcount(String file) {
+		for(int i=0; i < families.size(); i++){
+			 family famObj = families.get(i);
+			 individual indObj = individuals.get(i);
+			 String name = indObj.getName();
+			 String weddingDate = famObj.getWeddingDate();
+			 String husband = famObj.getHusband();
+			 String wife = famObj.getWife();
+			 if(weddingDate != null){
+			 String weddingyear[] = weddingDate.split(" ");
+			 System.out.println("The Wedding Dates are:"+" "+famObj.getWeddingDate() +", " + famObj.getHusband()+" "+ famObj.getWife());
+			 }
+			}
+	}
+	
+//Printing number of divorce's
+//PT_Sprint3_US19
+	public void divorcecount(String file) {
+		for(int i=0; i < families.size(); i++){
+			 family famObj = families.get(i);
+			 individual indObj = individuals.get(i);
+			 String divorceDate = famObj.getDivorceDate();
+			 String husband = famObj.getHusband();
+			 String wife = famObj.getWife();
+			 if(divorceDate != null){
+			 String divorceyear[] = divorceDate.split(" ");
+			 System.out.println("The Divorce Dates are:"+" "+famObj.getDivorceDate() +", " + famObj.getHusband()+" "+ famObj.getWife());
+			 }
+			}
+	}
 }
 

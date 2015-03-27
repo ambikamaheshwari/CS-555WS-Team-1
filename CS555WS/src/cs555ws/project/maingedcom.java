@@ -21,6 +21,7 @@ public class maingedcom {
 		ds.divorceAfterDeath("final.ged");
 		ds.divorceBeforeBirth("final.ged");
 		ds.MarriageofSamePerson("final.ged");
+		ds.weddingcount("final.ged");
+		ds.divorcecount("final.ged");
 	}
 }
-

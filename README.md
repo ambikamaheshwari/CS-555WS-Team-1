@@ -22,4 +22,13 @@ CS-555WS-Team-1/CS555WS/src/cs555ws/project/maingedcom.java is the main file
 3. Printing out the death date and name of the person died.
 4. Printing out the birth date and name of the person born.
 
-
+Project 8
+CS-555WS-Team-1/CS555WS/src/cs555ws/project/maingedcom.java is the main file
+1.Couple born on the same day
+2.Couple died on the same day
+3.Individual born on the same day 
+4.Individual died on the same day 
+5.Print out of Marriges
+6.Print out of Divorce
+7.Divorce in leap year
+8.Marriage in a leap year

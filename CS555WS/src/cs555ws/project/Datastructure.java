@@ -389,5 +389,76 @@ public void DivorceBeforeMarriage(String file){
 			 }
 			}
 	}
+	//Printing Couple having same birthdate
+	//AM_Sprint03_US14
+	public void CoupleSameBday(String file)
+	{
+	
+	HashMap<Integer, String> hash = new HashMap<>();
+	for(int i=0;i<individuals.size();i++)
+		{
+		
+		for(int j=0;j<families.size();j++)
+		{
+		family famObj = families.get(j);
+		individual indObj = individuals.get(i);
+		String Id=indObj.getIdentifier();
+		
+		String Wife=famObj.getWife();
+		String Hus=famObj.getHusband();
+		String birthdate = indObj.getBirthDate();
+		
+		if(Id.equals(Hus) || Id.equals(Wife))
+		{
+			hash.put(1,indObj.getGivenName());
+			hash.put(2,birthdate);
+			i++;
+			indObj = individuals.get(i);
+			hash.put(3, indObj.getGivenName());
+			hash.put(4, indObj.getBirthDate());
+			if(hash.get(2).equals(hash.get(4)))
+			
+			System.out.println(hash.get(1) +" "+ " and " + hash.get(3) + " have same birthdate " + hash.get(2));	
+		}
+		}
+		
+		}
+	}
+		
+	//Printing Couple died on same day
+	//AM_Sprint03_US15
+	public void CoupleSameDday(String file)
+	{
+	
+		HashMap<Integer, String> hash = new HashMap<>();
+		for(int i=0;i<individuals.size();i++)
+		{
+		for(int j=0;j<families.size();j++)
+		{
+		family famObj = families.get(j);
+		individual indObj = individuals.get(i);
+		String Id=indObj.getIdentifier();
+		String Wife=famObj.getWife();
+		String Hus=famObj.getHusband();
+		String deathdate = indObj.getDeathDate();
+		if(deathdate!=null)
+		{
+		if(Id.equals(Hus) || Id.equals(Wife))
+		{
+			hash.put(1,indObj.getGivenName());
+			hash.put(2,deathdate);
+			i++;
+			indObj = individuals.get(i);
+			hash.put(3, indObj.getGivenName());
+			hash.put(4, indObj.getDeathDate());
+			if(hash.get(2).equals(hash.get(4)))		
+			System.out.println(hash.get(1) +" "+ " and " + hash.get(3) + " have same death date " + hash.get(2));	
+		}
+		}}
+		
+		}
+	}
+
+	
 }
 

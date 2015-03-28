@@ -23,5 +23,7 @@ public class maingedcom {
 		ds.MarriageofSamePerson("final.ged");
 		ds.weddingcount("final.ged");
 		ds.divorcecount("final.ged");
+		ds.CoupleSameBday("final.ged");
+		ds.CoupleSameDday("final.ged");
 	}
 }

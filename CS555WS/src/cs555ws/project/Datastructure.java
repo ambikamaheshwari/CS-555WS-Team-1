@@ -458,7 +458,85 @@ public void DivorceBeforeMarriage(String file){
 		
 		}
 	}
+	//Printing Individual born on same day
+	//HB_Sprint03_US16
+	
+	public void IndividualSameBday(String file)
+	{
 
+		List<String> date = new ArrayList<String>();
+		
+		for(int i=0;i<individuals.size();i++)
+		{
+			List<String> abc = new ArrayList<String>();
+			abc.add(individuals.get(i).getBirthDate());
+			abc.add(individuals.get(i).getGivenName());
+			if(!date.contains(abc.get(0)))
+			{
+				int flag =0;
+				for(int j=i+1;j<individuals.size();j++)
+				{
+					if(individuals.get(j).getBirthDate().equals(abc.get(0)))
+					{
+						abc.add(individuals.get(j).getGivenName());
+						flag=1;
+					}
+				}
+				if(flag==1)
+					date.add(individuals.get(i).getBirthDate());
+			
+				if(abc.size()>2)
+				{
+					System.out.print("Individuals with date of birth "+abc.get(0)+":");
+					for(int k=1;k<abc.size();k++)
+						System.out.print(" "+abc.get(k));
+					System.out.println();
+				}
+			
+			}
+		}
+	
+	}
+	//Printing Individual died on same day
+	//HB_Sprint03_US19
+
+	public void IndividualSameDday(String file)
+	{
+
+		List<String> date = new ArrayList<String>();
+		
+		for(int i=0;i<individuals.size();i++)
+		{
+			if(individuals.get(i).getDeathDate()!=null)
+			{
+				List<String> abc = new ArrayList<String>();
+				abc.add(individuals.get(i).getDeathDate());
+				abc.add(individuals.get(i).getGivenName());
+				if(!date.contains(abc.get(0)))
+				{
+					int flag =0;
+					for(int j=i+1;j<individuals.size();j++)
+						if(individuals.get(j).getDeathDate()!=null)
+							if(individuals.get(j).getDeathDate().equals(abc.get(0)))
+							{
+								abc.add(individuals.get(j).getGivenName());
+								flag=1;
+							}
+				
+							if(flag==1)
+								date.add(individuals.get(i).getDeathDate());
+			
+							if(abc.size()>2)
+							{
+								System.out.print("Individuals with date of death "+abc.get(0)+":");
+								for(int k=1;k<abc.size();k++)
+									System.out.print(" "+abc.get(k));
+								System.out.println();
+							}
+				}
+			}
+		}
+	}
 	
 }
 

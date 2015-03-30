@@ -1,2 +1,13 @@
 //Sprint 3 Output
+Monica  and Chandler have same birthdate 9 JUN 1966
+Richard  and Rose have same death date 2 SEP 2014
+Individuals with date of birth 9 JUN 1966: Monica Chandler Bishop
+The Wedding Dates are: 1 JAN 2000, I2 I1
+The Wedding Dates are: 1 JAN 1999, I7 I8
+The Divorce Dates are: 1 JAN 2001, I7 I8
+Individuals with date of death 2 SEP 2014: Bishop Richard Rose
+The Birth Dates on leap year are: 5 APR 1940 Richard Geller
+The Birth Dates on leap year are: 3 MAR 1940 Rose Geller
+The Birth Dates on leap year are: 6 MAY 1964 Ross Geller
+The Death Dates on leap year are: 1 APR 2012 Nora Bing
 

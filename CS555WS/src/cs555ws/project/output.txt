@@ -1,21 +1,2 @@
-Total number of Individual are : 16
-Total number of Families are :8
-Total number of Birthdates are :16
-The DeathDates are: 2 MAR 1988, Richard Micheal
-The DeathDates are: 3 FEB 2000, Sandra Buchard
-The BirthDates are: 2 JAN 1969, Richard Micheal
-The BirthDates are: 3 MAR 1969, Sandra Buchard
-The BirthDates are: 1 JAN 1989, Tommy Micheal
-The BirthDates are: 3 JAN 2012, Richa Raymond
-The BirthDates are: 1 JAN 1800, Nathan Micheal
-The BirthDates are: 1 JAN 1800, Nathan Micheal
-The BirthDates are: 1 JAN 1991, Raj Bhatt
-The BirthDates are: 1 JAN 1990, Rohini Bhatt
-Death cannot happen before birth for Maria Rodger
-Divorce cannot happen before Wedding for Niccky Micheal
-Death cannot happen before Wedding for Richard Micheal
-Wedding cannot happen before birth for Richa Raymond
-Divorce cannot happen after death Roger Federer
-Divorce cannot happen before birth Deepak Bhatt
-Divorce cannot happen before birth Rohini Bhatt
-Cannot marry same person Nathan Micheal
+//Sprint 3 Output
+

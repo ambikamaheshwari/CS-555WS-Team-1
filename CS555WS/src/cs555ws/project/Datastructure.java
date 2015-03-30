@@ -363,7 +363,6 @@ public void DivorceBeforeMarriage(String file){
 		for(int i=0; i < families.size(); i++){
 			 family famObj = families.get(i);
 			 individual indObj = individuals.get(i);
-			 String name = indObj.getName();
 			 String weddingDate = famObj.getWeddingDate();
 			 String husband = famObj.getHusband();
 			 String wife = famObj.getWife();
@@ -471,6 +470,8 @@ public void DivorceBeforeMarriage(String file){
 			List<String> abc = new ArrayList<String>();
 			abc.add(individuals.get(i).getBirthDate());
 			abc.add(individuals.get(i).getGivenName());
+			if(date!=null)
+			{
 			if(!date.contains(abc.get(0)))
 			{
 				int flag =0;
@@ -492,7 +493,7 @@ public void DivorceBeforeMarriage(String file){
 						System.out.print(" "+abc.get(k));
 					System.out.println();
 				}
-			
+			}
 			}
 		}
 	
@@ -538,5 +539,76 @@ public void DivorceBeforeMarriage(String file){
 		}
 	}
 	
+	/*public void NoDeathcount(String file) {
+		int deathcount=0;
+		for(int i=0; i < families.size(); i++){
+			 individual indObj = individuals.get(i);
+			 String deathdate = indObj.getDeathDate();
+			 if(deathdate != null){
+			 deathcount=deathcount+1;
+			 }
+
+			}
+	int indi = individuals.size();
+	deathcount=indi-deathcount;
+	System.out.println("Number of individuls having no Death date are :"+" "+deathcount );
+
+	}
+
+	public void NoBirthcount(String file) {
+		int deathcount=0;
+		for(int i=0; i < families.size(); i++){
+			 individual indObj = individuals.get(i);
+			 String birthdate = indObj.getBirthDate();
+			 if(birthdate != null){
+			 count=count+1;
+			 }
+
+			}
+	int indi = individuals.size();
+	count=indi-count;
+	System.out.println("Number of individuls having no Birth date are :"+" "+count );
+
+	}*/
+
+
+
+public void birthdateleap(String file) {
+	for(int i=0; i < families.size(); i++){
+		 individual indObj = individuals.get(i);
+		 String birthdate = indObj.getBirthDate();
+                 String name = indObj.getName();
+		 String surName = indObj.getSurName();
+                boolean value;
+             int birthd=Integer.parseInt(birthdate.substring(6, 10));
+             if ((birthd % 4 == 0 && birthd % 100 != 0) || birthd % 400 == 0)
+			value=true;
+		else
+			value=false;            
+		
+		 if(value){
+		 String birthyear[] = birthdate.split(" ");
+		 System.out.println("The Birth Dates on leap year are:"+" "+indObj.getBirthDate() +", " + indObj.getGivenName()+" "+ indObj.getSurName());
+		 }
+		}
 }
 
+public void deathdateleap(String file) {
+	for(int i=0; i < families.size(); i++){
+		 individual indObj = individuals.get(i);
+		 String deathdate = indObj.getDeathDate();
+                 
+             int deathd=Integer.parseInt(deathdate.substring(6, 10));
+             boolean value;
+			if ((deathd % 4 == 0 && deathd % 100 != 0) || deathd % 400 == 0)
+			value=true;
+		else
+			value=false;            
+		
+		 if(value){
+		
+		 System.out.println("The Death Dates on leap year are:"+" "+indObj.getDeathDate() +", " + indObj.getGivenName()+" "+ indObj.getSurName());
+		 }
+		}
+}
+}

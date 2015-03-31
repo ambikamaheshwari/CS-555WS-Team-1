@@ -29,7 +29,10 @@ public class maingedcom {
 		ds.IndividualSameDday("final1.ged");//HB
 		ds.birthdateleap("final1.ged");//SA
 		ds.deathdateleap("final1.ged");//SA
+		ds.printAgeChild("final1.ged");//AM
+		ds.printAgeTeen("final1.ged");//HB
+		ds.printAgeAdult("final1.ged");//HB
+		ds.printAgeOld("final1.ged");//AM
 		
-	
 	}
 }

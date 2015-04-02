@@ -31,6 +31,7 @@ public class maingedcom {
 		ds.deathdateleap("final1.ged");//SA
 		ds.printAgeChild("final1.ged");//AM
 		ds.printAgeOld("final1.ged");//AM
-		
+		ds.widowcount("final1.ged");//PT
+		ds.widowercount("final1.ged");//PT
 	}
 }

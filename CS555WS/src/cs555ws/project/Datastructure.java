@@ -660,4 +660,40 @@ public class Datastructure {
 		}System.out.println("The Total Number of Individual greater than 60 are "+agecountO);System.out.println();
 	}
 	
+	//Printing number of widows
+//PT_Sprint4_US27
+	public void widowcount(String file) {
+		for(int i=0; i < families.size(); i++){
+			 family famObj = families.get(i);
+			 individual indObj = individuals.get(i);
+			 String husband = famObj.getHusband();
+			 String deathDate = indObj.getDeathDate();
+			 String wife = famObj.getWife();
+			 String name = indObj.getName();
+			 if( deathDate != null) {
+			 String deathyear[] = deathDate.split(" ");
+			 System.out.println("The Widows are:"+" "+ famObj.getWife());
+			 System.out.println("Husband name who died is:"+" "+famObj.getHusband()+","+ indObj.getDeathDate());
+			 }
+			}
+	}
+	
+	//Printing number of widowers
+	//PT_Sprint4_US28
+		public void widowercount(String file) {
+			for(int i=0; i < families.size(); i++){
+				 family famObj = families.get(i);
+				 individual indObj = individuals.get(i);
+				 String husband = famObj.getHusband();
+				 String deathDate = indObj.getDeathDate();
+				 String wife = famObj.getWife();
+				 String name = indObj.getName();
+				 if( deathDate != null) {
+				 String deathyear[] = deathDate.split(" ");
+				 System.out.println("The Widowers are:"+" "+ famObj.getHusband());
+				 System.out.println("Wife name who died is:"+" "+famObj.getWife()+","+ indObj.getDeathDate());
+				 }
+				}
+		}
+}
 }

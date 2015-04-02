@@ -32,3 +32,14 @@ CS-555WS-Team-1/CS555WS/src/cs555ws/project/maingedcom.java is the main file
 6.Print out of Divorce
 7.Divorce in leap year
 8.Marriage in a leap year
+
+Project 10
+CS-555WS-Team-1/CS555WS/src/cs555ws/project/maingedcom.java is the main file
+1.Child in the family
+2.Teen in the family
+3.Adult in the family
+4.Old generations
+5.Print out of Widows
+6.Print out of Widower
+7.Marriage in leap year
+8.Divorce in leap year

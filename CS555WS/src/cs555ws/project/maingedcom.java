@@ -33,5 +33,7 @@ public class maingedcom {
 		ds.printAgeOld("final1.ged");//AM
 		ds.widowcount("final1.ged");//PT
 		ds.widowercount("final1.ged");//PT
+		ds.marriagedateleap("final1.ged");//SA
+		ds.divorcedateleap("final1.ged");//SA
 	}
 }

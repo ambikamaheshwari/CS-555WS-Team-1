@@ -584,6 +584,9 @@ public class Datastructure {
 	 * System.out.println("Number of individuls having no Birth date are :"
 	 * +" "+count ); }
 	 */
+// Birth in a leap year
+	// SA_Sprint03
+
 
 	public void birthdateleap(String file) {
 		for (int i = 0; i < families.size(); i++) {
@@ -605,7 +608,8 @@ public class Datastructure {
 			}
 		}
 	}
-
+// Death in a leap year
+	// SA_Sprint03
 	public void deathdateleap(String file) {
 		for (int i = 0; i < families.size(); i++) {
 			individual indObj = individuals.get(i);
@@ -659,7 +663,51 @@ public class Datastructure {
 			}
 		}System.out.println("The Total Number of Individual greater than 60 are "+agecountO);System.out.println();
 	}
-	
+//SA_Sprint4	
+//Marriage in a leap year
+public void marriagedateleap(String file) {
+		for (int i = 0; i < families.size(); i++) {
+			individual indObj = individuals.get(i);
+			String marriagedate = indObj.getWeddingDate();
+
+			int marriage = Integer.parseInt(marriagedate.substring(6, 10));
+			boolean value;
+			if ((marriage % 4 == 0 && marriage % 100 != 0) || marriage % 400 == 0)
+				value = true;
+			else
+				value = false;
+
+			if (value) {
+
+				System.out.println("The Marriage Dates on leap year are:" + " "
+						+ indObj.getWeddingDate() + ", " + indObj.getGivenName()
+						+ " " + indObj.getSurName());
+			}
+		}
+	}
+//SA_Sprint4
+//Divorce in a leap year 
+
+public void divorcedateleap(String file) {
+		for (int i = 0; i < families.size(); i++) {
+			individual indObj = individuals.get(i);
+			String divorcedate = indObj.getDivorceDate();
+
+			int divorce = Integer.parseInt(divorcedate.substring(6, 10));
+			boolean value;
+			if ((divorce % 4 == 0 && divorce % 100 != 0) || divorce % 400 == 0)
+				value = true;
+			else
+				value = false;
+
+			if (value) {
+
+				System.out.println("The Divorce Dates on leap year are:" + " "
+						+ indObj.getDivorceDate() + ", " + indObj.getGivenName()
+						+ " " + indObj.getSurName());
+			}
+		}
+	}
 	//Printing number of widows
 //PT_Sprint4_US27
 	public void widowcount(String file) {

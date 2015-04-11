@@ -743,5 +743,36 @@ public void divorcedateleap(String file) {
 				 }
 				}
 		}
+	HB_Sprint4_US24
+	public void printAgeTeen(String file) {
+		int agecountT = 0;
+
+		for (int i = 0; i < individuals.size(); i++) {
+			individual indObj = individuals.get(i);
+			if (indObj.getAge() > 13 && (indObj.getAge() <= 18))
+			{
+				agecountT += 1;
+				System.out.println("The age of " + indObj.getIdentifier() + " "
+						+ indObj.getGivenName() + " " + indObj.getSurName()
+						+ " is " + indObj.getAge());
+			}
+			
+		}System.out.println("The Total Number of Teens less than 19 are "+agecountT);System.out.println();
+	}
+	//HB_Sprint4_US25
+	public void printAgeAdult(String file) {
+		int agecountA = 0;
+
+		for (int i = 0; i < individuals.size(); i++) {
+			individual indObj = individuals.get(i);
+			if (indObj.getAge() > 18 && (indObj.getAge() <= 59))// HB_Sprint4_US
+			{
+				agecountA += 1;
+				System.out.println("The age of adult " + indObj.getIdentifier() + " "+ indObj.getGivenName() + " " + indObj.getSurName()
+						+ " is " + indObj.getAge());
+			}
+		}System.out.println("The Total Number of Adults are greater than 18 and less than 60 are "+agecountA);System.out.println();
+	}
+
 }
 }

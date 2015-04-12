@@ -1,13 +1,42 @@
-//Sprint 3 Output
-Monica  and Chandler have same birthdate 9 JUN 1966
-Richard  and Rose have same death date 2 SEP 2014
-Individuals with date of birth 9 JUN 1966: Monica Chandler Bishop
-The Wedding Dates are: 1 JAN 2000, I2 I1
-The Wedding Dates are: 1 JAN 1999, I7 I8
-The Divorce Dates are: 1 JAN 2001, I7 I8
-Individuals with date of death 2 SEP 2014: Bishop Richard Rose
-The Birth Dates on leap year are: 5 APR 1940 Richard Geller
-The Birth Dates on leap year are: 3 MAR 1940 Rose Geller
-The Birth Dates on leap year are: 6 MAY 1964 Ross Geller
-The Death Dates on leap year are: 1 APR 2012 Nora Bing
+//Sprint 4 Output
 
+The age of Child I22 Shubham Rai is 7
+The age of Child I24 Bebo Rai is 3
+The Total Number of Children less than 12 years are 2
+
+The age of old I6 Basant Reddy is 70
+The age of old I7 Tina Malhotra is 62
+The age of old I16 Sujit Sharma is 70
+The age of old I17 Roja Shetty is 65
+The Total Number of Individual greater than 60 are 4
+
+The Widows are: I7
+Husband name who died is: I6,10 FEB 2009
+The Widowers are: I8
+Wife name who died iss: I9,10 FEB 2012
+
+The age of I5 Harsh Sharma is 17
+The age of I12 Drishti Reddy is 18
+The age of I13 Darshan Reddy is 14
+The age of I14 Shubham Rathod is 18
+The age of I15 Bhavya Rathod is 14
+The Total Number of Teens less than 19 are 5
+
+The age of adult I1 Anaya Sharma is 26
+The age of adult I2 Sunil Sharma is 49
+The age of adult I3 Raveena Reddy is 49
+The age of adult I4 Parul Sharma is 20
+The age of adult I8 Deepak Reddy is 46
+The age of adult I9 Lata Reddy is 40
+The age of adult I10 Jyoti Reddy is 40
+The age of adult I11 Anup Rathod is 45
+The age of adult I18 Shobha Sharma is 53
+The age of adult I19 CP Bachan is 55
+The age of adult I20 Kaushal Bachan is 26
+The age of adult I21 Sonal Bachan is 30
+The age of adult I23 Raj Rai is 32
+The age of adult I25 Jeet Agarwal is 26
+The Total Number of Adults are greater than 18 and less than 60 are 14
+
+The Marriage Dates on leap year are: 2 APR 2000
+The Divorce Dates on leap year are: 1 JAN 1988

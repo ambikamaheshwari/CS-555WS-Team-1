@@ -663,7 +663,7 @@ public class Datastructure {
 			}
 		}System.out.println("The Total Number of Individual greater than 60 are "+agecountO);System.out.println();
 	}
-//SA_Sprint4_US29	
+//SA_Sprint4	
 //Marriage in a leap year
 public void marriagedateleap(String file) {
 		for (int i = 0; i < families.size(); i++) {
@@ -681,12 +681,11 @@ public void marriagedateleap(String file) {
 			if (value) {
 
 				System.out.println("The Marriage Dates on leap year are:" + " "
-						+ famObj.getWeddingDate() + ", " + indObj.getGivenName()
-						+ " " + indObj.getSurName());
+						+ famObj.getWeddingDate());
 			}
 		}
 	}
-//SA_Sprint4_US30
+//SA_Sprint4
 //Divorce in a leap year 
 
 public void divorcedateleap(String file) {
@@ -705,8 +704,7 @@ public void divorcedateleap(String file) {
 			if (value) {
 
 				System.out.println("The Divorce Dates on leap year are:" + " "
-						+ famObj.getDivorceDate() + ", " + indObj.getGivenName()
-						+ " " + indObj.getSurName());
+						+ famObj.getDivorceDate());
 			}
 		}
 	}

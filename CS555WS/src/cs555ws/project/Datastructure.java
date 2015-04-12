@@ -663,12 +663,13 @@ public class Datastructure {
 			}
 		}System.out.println("The Total Number of Individual greater than 60 are "+agecountO);System.out.println();
 	}
-//SA_Sprint4	
+//SA_Sprint4_US29	
 //Marriage in a leap year
 public void marriagedateleap(String file) {
 		for (int i = 0; i < families.size(); i++) {
 			individual indObj = individuals.get(i);
-			String marriagedate = indObj.getWeddingDate();
+			family famObj = families.get(i);
+			String marriagedate = famObj.getWeddingDate();
 
 			int marriage = Integer.parseInt(marriagedate.substring(6, 10));
 			boolean value;
@@ -680,18 +681,19 @@ public void marriagedateleap(String file) {
 			if (value) {
 
 				System.out.println("The Marriage Dates on leap year are:" + " "
-						+ indObj.getWeddingDate() + ", " + indObj.getGivenName()
+						+ famObj.getWeddingDate() + ", " + indObj.getGivenName()
 						+ " " + indObj.getSurName());
 			}
 		}
 	}
-//SA_Sprint4
+//SA_Sprint4_US30
 //Divorce in a leap year 
 
 public void divorcedateleap(String file) {
 		for (int i = 0; i < families.size(); i++) {
 			individual indObj = individuals.get(i);
-			String divorcedate = indObj.getDivorceDate();
+			family famObj = families.get(i);
+			String divorcedate = famObj.getDivorceDate();
 
 			int divorce = Integer.parseInt(divorcedate.substring(6, 10));
 			boolean value;
@@ -703,7 +705,7 @@ public void divorcedateleap(String file) {
 			if (value) {
 
 				System.out.println("The Divorce Dates on leap year are:" + " "
-						+ indObj.getDivorceDate() + ", " + indObj.getGivenName()
+						+ famObj.getDivorceDate() + ", " + indObj.getGivenName()
 						+ " " + indObj.getSurName());
 			}
 		}
@@ -774,5 +776,4 @@ public void divorcedateleap(String file) {
 		}System.out.println("The Total Number of Adults are greater than 18 and less than 60 are "+agecountA);System.out.println();
 	}
 
-}
 }

@@ -43,3 +43,14 @@ CS-555WS-Team-1/CS555WS/src/cs555ws/project/maingedcom.java is the main file
 6.Print out of Widower
 7.Marriage in leap year
 8.Divorce in leap year
+
+Project 12
+CS-555WS-Team-1/CS555WS/src/cs555ws/project/maingedcom.java is the main file
+1.Abnormal Number of Children
+2.Counting number of Individual in a generation
+3.Yongest member in family 
+4.Eldest member in family 
+5.Abnormal Age Difference Between Husband and Wife
+6.Abnormal Age
+7.Female husband in a family
+8.Male Wife in a Family

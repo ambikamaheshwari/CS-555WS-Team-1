@@ -29,13 +29,15 @@ public class maingedcom {
 		ds.IndividualSameDday("final1.ged");
 		ds.birthdateleap("final1.ged");
 		ds.deathdateleap("final1.ged");
-		ds.printAgeChild("Project08.ged");//AM
-		ds.printAgeOld("Project08.ged");//AM
-		ds.widowcount("Project08.ged");//PT
-		ds.widowercount("Project08.ged");//PT
-		ds.printAgeTeen("Project08.ged");//HB
-		ds.printAgeAdult("Project08.ged");//HB
-		ds.marriagedateleap("Project08.ged");//SA
-		ds.divorcedateleap("Project08.ged");//SA
+		ds.printAgeChild("Project08.ged");
+		ds.printAgeOld("Project08.ged");
+		ds.widowcount("Project08.ged");
+		ds.widowercount("Project08.ged");
+		ds.printAgeTeen("Project08.ged");
+		ds.printAgeAdult("Project08.ged");
+		ds.marriagedateleap("Project08.ged");
+		ds.divorcedateleap("Project08.ged");
+		ds.abnormalage1("Project08.ged");
+		ds.abnormalage2("Project08.ged");
 	}
 }

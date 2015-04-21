@@ -14,8 +14,8 @@ import java.util.logging.Logger;
 
 public class Datastructure {
 
-	private List<individual> individuals = new ArrayList<individual>();
-	private List<family> families = new ArrayList<family>();
+	private static List<individual> individuals = new ArrayList<individual>();
+	private static List<family> families = new ArrayList<family>();
 	static int count = 0;
 
 	// AM_Sprint1_USget arguments
@@ -774,4 +774,58 @@ public void divorcedateleap(String file) {
 		}System.out.println("The Total Number of Adults are greater than 18 and less than 60 are "+agecountA);System.out.println();
 	}
 
+	//Sprint_5
+	//PT_Sprint5_22
+	public static void abnormalage1(String file) {
+		
+		for (int i = 0; i < individuals.size(); i++) {
+			individual indObj = individuals.get(i);
+			if (indObj.getAge() > 200)
+			{
+			System.out.println("The age provided is an abnormal age"+" " +indObj.getIdentifier() +" "+ indObj.getGivenName() + " "+ indObj.getSurName() 
+					+" "+"is"+" " +indObj.getAge());		
+			}
+			else if(indObj.getAge() < 200)
+			{
+			System.out.println(" The age provided is a normal age"+" " +indObj.getIdentifier() +" "+ indObj.getGivenName() + " "+ indObj.getSurName() 
+					+" "+"is"+" " +indObj.getAge()); 
+		}
+		}
+	}
+		
+	//PT_Sprint5_35
+	public static void abnormalage2(String file) {
+			
+		HashMap<Integer, String> hash = new HashMap<>();
+		HashMap<Integer, Integer> hash1 = new HashMap<>();
+		for (int i = 0; i < individuals.size(); i++) {
+			for (int j = 0; j < families.size(); j++) {
+				family famObj = families.get(j);
+				individual indObj = individuals.get(i);
+				String Id = indObj.getIdentifier();
+				String Wife = famObj.getWife();
+				String Hus = famObj.getHusband();
+				int age = indObj.getAge();
+				if (age != 0) {
+					if (Id.equals(Hus) || Id.equals(Wife)) {
+						hash.put(1, indObj.getGivenName());
+						hash1.put(2, indObj.getAge());
+						i++;
+						indObj = individuals.get(i);
+						hash.put(3, indObj.getGivenName());
+						hash1.put(4, indObj.getAge());
+						hash1.put(5, hash1.get(2) - (hash1.get(4)));
+						if (hash1.get(5) >= 50)
+							
+							System.out.println(hash.get(1) + " " + "and "
+									+ hash.get(3) + " have abnormal age difference of"
+									+" "+ hash1.get(5));
+						else
+							System.out.println("No abnormal age difference");
+					}
+				}
+
+		} 
+}
+}
 }

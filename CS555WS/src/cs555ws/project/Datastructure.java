@@ -584,9 +584,8 @@ public class Datastructure {
 	 * System.out.println("Number of individuls having no Birth date are :"
 	 * +" "+count ); }
 	 */
-// Birth in a leap year
+	// Birth in a leap year
 	// SA_Sprint03
-
 
 	public void birthdateleap(String file) {
 		for (int i = 0; i < families.size(); i++) {
@@ -608,7 +607,8 @@ public class Datastructure {
 			}
 		}
 	}
-// Death in a leap year
+
+	// Death in a leap year
 	// SA_Sprint03
 	public void deathdateleap(String file) {
 		for (int i = 0; i < families.size(); i++) {
@@ -630,25 +630,30 @@ public class Datastructure {
 			}
 		}
 	}
-	
-	//AM_Sprint4_US23
-	public void printAgeChild(String file)
-{
-	int agecountC=0;
-	
-	for(int i=0; i < individuals.size(); i++){
-		 individual indObj = individuals.get(i);
-		 
-		 if(indObj.getAge() <= 12)
-		 {	 agecountC +=1;
-		 
-		 		 System.out.println("The age of Child "+ indObj.getIdentifier()+ " " + indObj.getGivenName() +" "+ indObj.getSurName() + " is " +indObj.getAge());}
-	}System.out.println("The Total Number of Children less than 12 years are "+agecountC);System.out.println();
-	
-}	
-	
-	
-//AM_Sprint4_US26
+
+	// AM_Sprint4_US23
+	public void printAgeChild(String file) {
+		int agecountC = 0;
+
+		for (int i = 0; i < individuals.size(); i++) {
+			individual indObj = individuals.get(i);
+
+			if (indObj.getAge() <= 12) {
+				agecountC += 1;
+
+				System.out.println("The age of Child " + indObj.getIdentifier()
+						+ " " + indObj.getGivenName() + " "
+						+ indObj.getSurName() + " is " + indObj.getAge());
+			}
+		}
+		System.out
+				.println("The Total Number of Children less than 12 years are "
+						+ agecountC);
+		System.out.println();
+
+	}
+
+	// AM_Sprint4_US26
 	public void printAgeOld(String file) {
 		int agecountO = 0;
 
@@ -661,19 +666,25 @@ public class Datastructure {
 						+ " " + indObj.getGivenName() + " "
 						+ indObj.getSurName() + " is " + indObj.getAge());
 			}
-		}System.out.println("The Total Number of Individual greater than 60 are "+agecountO);System.out.println();
+		}
+		System.out
+				.println("The Total Number of Individual greater than 60 are "
+						+ agecountO);
+		System.out.println();
 	}
-//SA_Sprint4	
-//Marriage in a leap year
-public void marriagedateleap(String file) {
+
+	// SA_Sprint4
+	// Marriage in a leap year
+	public void marriagedateleap(String file) {
 		for (int i = 0; i < families.size(); i++) {
-			individual indObj = individuals.get(i);
+
 			family famObj = families.get(i);
 			String marriagedate = famObj.getWeddingDate();
 
 			int marriage = Integer.parseInt(marriagedate.substring(6, 10));
 			boolean value;
-			if ((marriage % 4 == 0 && marriage % 100 != 0) || marriage % 400 == 0)
+			if ((marriage % 4 == 0 && marriage % 100 != 0)
+					|| marriage % 400 == 0)
 				value = true;
 			else
 				value = false;
@@ -685,12 +696,13 @@ public void marriagedateleap(String file) {
 			}
 		}
 	}
-//SA_Sprint4
-//Divorce in a leap year 
 
-public void divorcedateleap(String file) {
+	// SA_Sprint4
+	// Divorce in a leap year
+
+	public void divorcedateleap(String file) {
 		for (int i = 0; i < families.size(); i++) {
-			individual indObj = individuals.get(i);
+
 			family famObj = families.get(i);
 			String divorcedate = famObj.getDivorceDate();
 
@@ -708,94 +720,98 @@ public void divorcedateleap(String file) {
 			}
 		}
 	}
-	//Printing number of widows
-//PT_Sprint4_US27
+
+	// Printing number of widows
+	// PT_Sprint4_US27
 	public void widowcount(String file) {
-		for(int i=0; i < families.size(); i++){
-			 family famObj = families.get(i);
-			 individual indObj = individuals.get(i);
-			 String husband = famObj.getHusband();
-			 String deathDate = indObj.getDeathDate();
-			 String wife = famObj.getWife();
-			 String name = indObj.getName();
-			 if( deathDate != null) {
-			 String deathyear[] = deathDate.split(" ");
-			 System.out.println("The Widows are:"+" "+ famObj.getWife());
-			 System.out.println("Husband name who died is:"+" "+famObj.getHusband()+","+ indObj.getDeathDate());
-			 }
+		for (int i = 0; i < families.size(); i++) {
+			family famObj = families.get(i);
+			individual indObj = individuals.get(i);
+
+			String deathDate = indObj.getDeathDate();
+
+			if (deathDate != null) {
+
+				System.out.println("The Widows are:" + " " + famObj.getWife());
+				System.out.println("Husband name who died is:" + " "
+						+ famObj.getHusband() + "," + indObj.getDeathDate());
 			}
-	}
-	
-	//Printing number of widowers
-	//PT_Sprint4_US28
-		public void widowercount(String file) {
-			for(int i=0; i < families.size(); i++){
-				 family famObj = families.get(i);
-				 individual indObj = individuals.get(i);
-				 String husband = famObj.getHusband();
-				 String deathDate = indObj.getDeathDate();
-				 String wife = famObj.getWife();
-				 String name = indObj.getName();
-				 if( deathDate != null) {
-				 String deathyear[] = deathDate.split(" ");
-				 System.out.println("The Widowers are:"+" "+ famObj.getHusband());
-				 System.out.println("Wife name who died is:"+" "+famObj.getWife()+","+ indObj.getDeathDate());
-				 }
-				}
 		}
-//	HB_Sprint4_US24
+	}
+
+	// Printing number of widowers
+	// PT_Sprint4_US28
+	public void widowercount(String file) {
+		for (int i = 0; i < families.size(); i++) {
+			family famObj = families.get(i);
+			individual indObj = individuals.get(i);
+			String deathDate = indObj.getDeathDate();
+			if (deathDate != null) {
+				System.out.println("The Widowers are:" + " "
+						+ famObj.getHusband());
+				System.out.println("Wife name who died is:" + " "
+						+ famObj.getWife() + "," + indObj.getDeathDate());
+			}
+		}
+	}
+
+	// HB_Sprint4_US24
 	public void printAgeTeen(String file) {
 		int agecountT = 0;
-
 		for (int i = 0; i < individuals.size(); i++) {
 			individual indObj = individuals.get(i);
-			if (indObj.getAge() > 13 && (indObj.getAge() <= 18))
-			{
+			if (indObj.getAge() > 13 && (indObj.getAge() <= 18)) {
 				agecountT += 1;
 				System.out.println("The age of " + indObj.getIdentifier() + " "
 						+ indObj.getGivenName() + " " + indObj.getSurName()
 						+ " is " + indObj.getAge());
 			}
-			
-		}System.out.println("The Total Number of Teens less than 19 are "+agecountT);System.out.println();
+		}
+		System.out.println("The Total Number of Teens less than 19 are "
+				+ agecountT);
+		System.out.println();
 	}
-	//HB_Sprint4_US25
+
+	// HB_Sprint4_US25
 	public void printAgeAdult(String file) {
 		int agecountA = 0;
-
 		for (int i = 0; i < individuals.size(); i++) {
 			individual indObj = individuals.get(i);
 			if (indObj.getAge() > 18 && (indObj.getAge() <= 59))// HB_Sprint4_US
 			{
 				agecountA += 1;
-				System.out.println("The age of adult " + indObj.getIdentifier() + " "+ indObj.getGivenName() + " " + indObj.getSurName()
-						+ " is " + indObj.getAge());
+				System.out.println("The age of adult " + indObj.getIdentifier()
+						+ " " + indObj.getGivenName() + " "
+						+ indObj.getSurName() + " is " + indObj.getAge());
 			}
-		}System.out.println("The Total Number of Adults are greater than 18 and less than 60 are "+agecountA);System.out.println();
+		}
+		System.out
+				.println("The Total Number of Adults are greater than 18 and less than 60 are "
+						+ agecountA);
+		System.out.println();
 	}
 
-	//Sprint_5
-	//PT_Sprint5_22
+	// Sprint_5
+	// PT_Sprint5_22
 	public static void abnormalage1(String file) {
-		
 		for (int i = 0; i < individuals.size(); i++) {
 			individual indObj = individuals.get(i);
-			if (indObj.getAge() > 200)
-			{
-			System.out.println("The age provided is an abnormal age"+" " +indObj.getIdentifier() +" "+ indObj.getGivenName() + " "+ indObj.getSurName() 
-					+" "+"is"+" " +indObj.getAge());		
+			if (indObj.getAge() > 200) {
+				System.out.println("The age provided is an abnormal age" + " "
+						+ indObj.getIdentifier() + " " + indObj.getGivenName()
+						+ " " + indObj.getSurName() + " " + "is" + " "
+						+ indObj.getAge());
+			} else if (indObj.getAge() < 200) {
+				System.out.println(" The age provided is a normal age" + " "
+						+ indObj.getIdentifier() + " " + indObj.getGivenName()
+						+ " " + indObj.getSurName() + " " + "is" + " "
+						+ indObj.getAge());
 			}
-			else if(indObj.getAge() < 200)
-			{
-			System.out.println(" The age provided is a normal age"+" " +indObj.getIdentifier() +" "+ indObj.getGivenName() + " "+ indObj.getSurName() 
-					+" "+"is"+" " +indObj.getAge()); 
-		}
 		}
 	}
-		
-	//PT_Sprint5_35
+
+	// PT_Sprint5_35
 	public static void abnormalage2(String file) {
-			
 		HashMap<Integer, String> hash = new HashMap<>();
 		HashMap<Integer, Integer> hash1 = new HashMap<>();
 		for (int i = 0; i < individuals.size(); i++) {
@@ -816,16 +832,64 @@ public void divorcedateleap(String file) {
 						hash1.put(4, indObj.getAge());
 						hash1.put(5, hash1.get(2) - (hash1.get(4)));
 						if (hash1.get(5) >= 50)
-							
 							System.out.println(hash.get(1) + " " + "and "
-									+ hash.get(3) + " have abnormal age difference of"
-									+" "+ hash1.get(5));
+									+ hash.get(3)
+									+ " have abnormal age difference of" + " "
+									+ hash1.get(5));
 						else
 							System.out.println("No abnormal age difference");
 					}
 				}
+			}
+		}
+	}
 
-		} 
-}
-}
+	public void abnormalChildren(String file) {
+		for (int i = 0; i < families.size(); i++) {
+			family famObj = families.get(i);
+			for (int j = 0; j < individuals.size(); j++) {
+				individual indObj = individuals.get(j);
+				if (indObj.getFAMC() != null
+						&& famObj.getIdentifier().equals(indObj.getFAMC())) {
+					famObj.chilnum++;
+				}
+			}
+			if (famObj.chilnum >= 10)
+				System.out
+						.println("Family "
+								+ famObj.getIdentifier()
+								+ " Has abnormal number of children's in family, count "
+								+ famObj.chilnum);
+		}
+	}
+
+	public void printGeneration(String file) {
+		for (int i = 0; i < individuals.size(); i++) {
+
+			individual indObj = individuals.get(i);
+			String birthdate = indObj.getBirthDate();
+
+			if (birthdate != null) {
+				String birthyear[] = birthdate.split(" ");
+				if ((Integer.parseInt(birthyear[2]) <= 1900)
+						|| (Integer.parseInt(birthyear[2]) >= 1999)) {
+
+					System.out.println("Individual " + indObj.getIdentifier()
+							+ " have birthyear " + birthyear[2]
+							+ " which is between 1900 - 1999 generation");
+				}
+				// System.out.println("People Born in 1900 to 1999 generation are");
+				else if ((Integer.parseInt(birthyear[2]) <= 2000)
+						|| (Integer.parseInt(birthyear[2]) >= 2015)) {
+					System.out.println("Individual " + indObj.getIdentifier() +" "+
+							 indObj.getGivenName() +" "+ indObj.getSurName() +" have birthyear " + birthyear[2]
+							+ " which is in 2000 to current generation");
+				} else
+					System.out.println();
+			}
+
+		}
+
+	}
+
 }

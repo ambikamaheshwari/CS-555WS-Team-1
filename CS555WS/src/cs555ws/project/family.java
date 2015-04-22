@@ -6,6 +6,8 @@ public class family {
 	 private String wife;
 	 private String divorceDate;
 	 private String weddingDate;
+	public int chilnum;
+	
 	 
 	 public String getIdentifier() {
 	  return identifier;

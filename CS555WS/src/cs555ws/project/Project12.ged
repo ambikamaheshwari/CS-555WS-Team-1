@@ -1,0 +1,170 @@
+0 HEAD
+1 SOUR Family Echo
+2 WWW http://www.familyecho.com/
+1 FILE Family 5
+1 DATE 22 APR 2015
+1 DEST ANSTFILE
+1 GEDC
+2 VERS 5.5.1
+2 FORM LINEAGE-LINKED
+1 SUBM @I1@
+2 NAME Ambika Maheshwari
+1 SUBN
+1 CHAR UTF-8
+0 @I1@ INDI
+1 NAME Rebecca /Donaldson/
+2 GIVN Rebecca
+2 SURN Donaldson
+2 _MARNM Katsopolis
+1 SEX F
+1 BIRT
+2 DATE 3 MAY 1950
+1 FAMS @F1@
+1 FAMC @F2@
+0 @I2@ INDI
+1 NAME Jesse /Katsopolis/
+2 GIVN Jesse
+2 SURN Katsopolis
+2 _MARNM Katsopolis
+1 SEX M
+1 BIRT
+2 DATE 9 MAY 1949
+1 FAMS @F1@
+0 @I3@ INDI
+1 NAME Jame /Katsopolis/
+2 GIVN Jame
+2 SURN Katsopolis
+2 _MARNM Katsopolis
+1 SEX M
+1 BIRT
+2 DATE 4 MAR 2000
+1 FAMC @F1@
+0 @I4@ INDI
+1 NAME Jim /Katsopolis/
+2 GIVN Jim
+2 SURN Katsopolis
+2 _MARNM Katsopolis
+1 SEX M
+1 BIRT
+2 DATE 2 JUN 1969
+1 FAMC @F1@
+0 @I5@ INDI
+1 NAME Julie /Katsopolis/
+2 GIVN Julie
+2 SURN Katsopolis
+2 _MARNM Katsopolis
+1 SEX F
+1 BIRT
+2 DATE 3 FEB 1970
+1 FAMC @F1@
+0 @I6@ INDI
+1 NAME Juliet /Katsopolis/
+2 GIVN Juliet
+2 SURN Katsopolis
+2 _MARNM Katsopolis
+1 SEX F
+1 BIRT
+2 DATE 3 FEB 1970
+1 FAMC @F1@
+0 @I7@ INDI
+1 NAME Jeff /Katsopolis/
+2 GIVN Jeff
+2 SURN Katsopolis
+2 _MARNM Katsopolis
+1 SEX M
+1 BIRT
+2 DATE 6 APR 1971
+1 FAMC @F1@
+0 @I8@ INDI
+1 NAME Jammy /Katsopolis/
+2 GIVN Jammy
+2 SURN Katsopolis
+2 _MARNM Katsopolis
+1 SEX M
+1 BIRT
+2 DATE 9 MAR 2008
+1 FAMC @F1@
+0 @I9@ INDI
+1 NAME Jaime /Katsopolis/
+2 GIVN Jaime
+2 SURN Katsopolis
+2 _MARNM Katsopolis
+1 SEX M
+1 BIRT
+2 DATE 5 JUN 1995
+1 FAMC @F1@
+0 @I10@ INDI
+1 NAME Jade /Katsopolis/
+2 GIVN Jade
+2 SURN Katsopolis
+2 _MARNM Katsopolis
+1 SEX F
+1 BIRT
+2 DATE 5 JUN 1985
+1 FAMC @F1@
+0 @I11@ INDI
+1 NAME Jess /Katsopolis/
+2 GIVN Jess
+2 SURN Katsopolis
+2 _MARNM Katsopolis
+1 SEX M
+1 BIRT
+2 DATE 6 AUG 1967
+1 FAMC @F1@
+0 @I12@ INDI
+1 NAME Ruby /Katsopolis/
+2 GIVN Ruby
+2 SURN Katsopolis
+2 _MARNM Katsopolis
+1 SEX F
+1 BIRT
+2 DATE 9 MAR 2010
+1 FAMC @F1@
+0 @I13@ INDI
+1 NAME Jenny /Katsopolis/
+2 GIVN Jenny
+2 SURN Katsopolis
+2 _MARNM Katsopolis
+1 SEX F
+1 BIRT
+2 DATE 9 MAR 2002
+1 FAMC @F1@
+0 @I14@ INDI
+1 NAME Ronald /Donaldson/
+2 GIVN Ronald
+2 SURN Donaldson
+2 _MARNM Donaldson
+1 SEX M
+1 BIRT
+2 DATE 5 APR 1920
+1 FAMS @F2@
+0 @I15@ INDI
+1 NAME Remmy /Donaldson/
+2 GIVN Remmy
+2 SURN Donaldson
+2 _MARNM Donaldson
+1 SEX F
+1 BIRT
+2 DATE 2 MAR 1920
+1 FAMS @F2@
+0 @F1@ FAM
+1 HUSB @I2@
+1 WIFE @I1@
+1 CHIL @I3@
+1 CHIL @I4@
+1 CHIL @I5@
+1 CHIL @I6@
+1 CHIL @I7@
+1 CHIL @I8@
+1 CHIL @I9@
+1 CHIL @I10@
+1 CHIL @I11@
+1 CHIL @I12@
+1 CHIL @I13@
+1 _CURRENT Y
+0 @F2@ FAM
+1 HUSB @I14@
+1 WIFE @I15@
+1 CHIL @I1@
+1 _CURRENT Y
+0 TRLR

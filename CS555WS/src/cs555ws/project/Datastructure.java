@@ -874,11 +874,12 @@ public class Datastructure {
 				if ((Integer.parseInt(birthyear[2]) <= 1900)
 						|| (Integer.parseInt(birthyear[2]) >= 1999)) {
 
-					System.out.println("Individual " + indObj.getIdentifier()
+					System.out.println("Individual " + indObj.getIdentifier() +" "+
+							 indObj.getGivenName() +" "+ indObj.getSurName()
 							+ " have birthyear " + birthyear[2]
 							+ " which is between 1900 - 1999 generation");
 				}
-				// System.out.println("People Born in 1900 to 1999 generation are");
+				
 				else if ((Integer.parseInt(birthyear[2]) <= 2000)
 						|| (Integer.parseInt(birthyear[2]) >= 2015)) {
 					System.out.println("Individual " + indObj.getIdentifier() +" "+

@@ -843,7 +843,7 @@ public class Datastructure {
 			}
 		}
 	}
-
+//AM_Sprint5_US31
 	public void abnormalChildren(String file) {
 		for (int i = 0; i < families.size(); i++) {
 			family famObj = families.get(i);
@@ -862,7 +862,7 @@ public class Datastructure {
 								+ famObj.chilnum);
 		}
 	}
-
+//AM_Sprint5_US32
 	public void printGeneration(String file) {
 		for (int i = 0; i < individuals.size(); i++) {
 

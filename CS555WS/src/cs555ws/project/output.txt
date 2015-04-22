@@ -1,42 +1,18 @@
-//Sprint 4 Output
+//Sprint 5 Output
 
-The age of Child I22 Shubham Rai is 7
-The age of Child I24 Bebo Rai is 3
-The Total Number of Children less than 12 years are 2
-
-The age of old I6 Basant Reddy is 70
-The age of old I7 Tina Malhotra is 62
-The age of old I16 Sujit Sharma is 70
-The age of old I17 Roja Shetty is 65
-The Total Number of Individual greater than 60 are 4
-
-The Widows are: I7
-Husband name who died is: I6,10 FEB 2009
-The Widowers are: I8
-Wife name who died iss: I9,10 FEB 2012
-
-The age of I5 Harsh Sharma is 17
-The age of I12 Drishti Reddy is 18
-The age of I13 Darshan Reddy is 14
-The age of I14 Shubham Rathod is 18
-The age of I15 Bhavya Rathod is 14
-The Total Number of Teens less than 19 are 5
-
-The age of adult I1 Anaya Sharma is 26
-The age of adult I2 Sunil Sharma is 49
-The age of adult I3 Raveena Reddy is 49
-The age of adult I4 Parul Sharma is 20
-The age of adult I8 Deepak Reddy is 46
-The age of adult I9 Lata Reddy is 40
-The age of adult I10 Jyoti Reddy is 40
-The age of adult I11 Anup Rathod is 45
-The age of adult I18 Shobha Sharma is 53
-The age of adult I19 CP Bachan is 55
-The age of adult I20 Kaushal Bachan is 26
-The age of adult I21 Sonal Bachan is 30
-The age of adult I23 Raj Rai is 32
-The age of adult I25 Jeet Agarwal is 26
-The Total Number of Adults are greater than 18 and less than 60 are 14
-
-The Marriage Dates on leap year are: 2 APR 2000
-The Divorce Dates on leap year are: 1 JAN 1988
+Family F1 Has abnormal number of children's in family, count 11
+Individual I1 Rebecca Donaldson have birthyear 1950 which is in 2000 to current generation
+Individual I2 Jesse Katsopolis have birthyear 1949 which is in 2000 to current generation
+Individual I3 Jame Katsopolis have birthyear 2000 which is between 1900 - 1999 generation
+Individual I4 Jim Katsopolis have birthyear 1969 which is in 2000 to current generation
+Individual I5 Julie Katsopolis have birthyear 1970 which is in 2000 to current generation
+Individual I6 Juliet Katsopolis have birthyear 1970 which is in 2000 to current generation
+Individual I7 Jeff Katsopolis have birthyear 1971 which is in 2000 to current generation
+Individual I8 Jammy Katsopolis have birthyear 2008 which is between 1900 - 1999 generation
+Individual I9 Jaime Katsopolis have birthyear 1995 which is in 2000 to current generation
+Individual I10 Jade Katsopolis have birthyear 1985 which is in 2000 to current generation
+Individual I11 Jess Katsopolis have birthyear 1967 which is in 2000 to current generation
+Individual I12 Ruby Katsopolis have birthyear 2010 which is between 1900 - 1999 generation
+Individual I13 Jenny Katsopolis have birthyear 2002 which is between 1900 - 1999 generation
+Individual I14 Ronald Donaldson have birthyear 1920 which is in 2000 to current generation
+Individual I15 Remmy Donaldson have birthyear 1920 which is in 2000 to current generation

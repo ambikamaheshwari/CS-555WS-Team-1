@@ -20,28 +20,28 @@
  The Female Husband in a family Adam Katsopolis
 
  The age provided is a normal age I1 Rebecca Donaldson is 64
- The age provided is a normal age I2 Jesse Katsopolis is 116
+ The age provided is a normal age I2 Jesse Katsopolis is 117
  The age provided is a normal age I3 Jame Katsopolis is 15
  The age provided is a normal age I4 Jim Katsopolis is 46
  The age provided is a normal age I5 Julie Katsopolis is 45
  The age provided is a normal age I6 Juliet Katsopolis is 45
  The age provided is a normal age I7 Jeff Katsopolis is 44
- The age provided is a normal age I8 Jammy Katsopolis is 7
- The age provided is a normal age I9 Jaime Katsopolis is 20
- The age provided is a normal age I10 Jade Katsopolis is 30
- The age provided is a normal age I11 Jess Katsopolis is 48
- The age provided is a normal age I12 Ruby Katsopolis is 5
- The age provided is a normal age I13 Jenny Katsopolis is 13
- The age provided is a normal age I14 Ronald Donaldson is 94
- The age provided is an abnormal age I15 Remmy Donaldson is 210
- The age provided is a normal age I16 Adam Katsopolis is 5
- The age provided is a normal age I17 Mary Katsopolis is 5
+ The age provided is a normal age I8 Jammy Katsopolis is 70
+ The age provided is a normal age I9 Mary Katsopolis is 70
+ The age provided is a normal age I10 Jaime Katsopolis is 20
+ The age provided is a normal age I11 Jade Katsopolis is 30
+ The age provided is a normal age I12 Jess Katsopolis is 48
+ The age provided is a normal age I13 Ruby Katsopolis is 70
+ The age provided is a normal age I14 Adam Katsopolis is 70
+ The age provided is a normal age I15 Jenny Katsopolis is 13
+ The age provided is a normal age I16 Ronald Donaldson is 95
+ The age provided is an abnormal age I17 Remmy Donaldson is 210
+ The age provided is a normal age I18 Richard Donaldson is 63
  No abnormal age difference
  No abnormal age difference
  No abnormal age difference
  No abnormal age difference
- Rebecca and Jesse have abnormal age differece of 52
- No abnormal age difference
+ Rebecca and Jesse have abnormal age differece of 53
 
 Youngest child in a family 
 Youngest child of family: F1 Jenny /Katsopolis/ age 13 

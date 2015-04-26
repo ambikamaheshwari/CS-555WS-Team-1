@@ -39,5 +39,7 @@ public class maingedcom {
 		ds.divorcedateleap("Project08.ged");
 		ds.abnormalage1("Project08.ged");
 		ds.abnormalage2("Project08.ged");
+		ds.printEldest();
+		ds.printYoungest();
 	}
 }

@@ -39,11 +39,11 @@ public class maingedcom {
 		ds.divorcedateleap("Project08.ged");
 		ds.abnormalChildren("Project12.ged");
 		ds.printGeneration("Project12.ged");
-		ds.abnormalage1();
-		ds.abnormalage2();
-		ds.printEldest();
-		ds.printYoungest();
-		ds.MaleWife("Project08.ged");
-		ds.FemaleHusband("Project08.ged");
+		ds.abnormalage1("Project12.ged");
+		ds.abnormalage2("Project12.ged");
+		ds.printEldest("Project12.ged");
+		ds.printYoungest("Project12.ged");
+		ds.MaleWife("Project12.ged");
+		ds.FemaleHusband("Project12.ged");
 	}
 }

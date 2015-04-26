@@ -967,7 +967,7 @@ public void FemaleHusband(String file) {
 		public void printYoungest()
 		{	
 			
-			System.out.println("\n print the youngest child in a mfamily \n");
+			System.out.println("\n Youngest child in a family \n");
 			
 			
 			for(int i=0;i<families.size();i++)
@@ -1004,7 +1004,7 @@ public void FemaleHusband(String file) {
 	
 	public void printEldest()
 	{	
-		System.out.println("\n print the eldest child in a mfamily \n");
+		System.out.println("\n Eldest child in a family \n");
 		
 		
 		

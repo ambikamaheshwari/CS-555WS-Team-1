@@ -37,8 +37,8 @@ public class maingedcom {
 		ds.printAgeAdult("Project08.ged");
 		ds.marriagedateleap("Project08.ged");
 		ds.divorcedateleap("Project08.ged");
-		ds.abnormalage1("Project08.ged");
-		ds.abnormalage2("Project08.ged");
+		ds.abnormalage1();
+		ds.abnormalage2();
 		ds.printEldest();
 		ds.printYoungest();
 	}

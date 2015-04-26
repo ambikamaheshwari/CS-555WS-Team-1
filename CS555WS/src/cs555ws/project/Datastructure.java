@@ -843,6 +843,54 @@ public class Datastructure {
 			}
 		}
 	}
+//SA_Sprint5_US36
+public void MaleWife(String file) {
+
+		for (int i = 0; i < individuals.size(); i++) {
+			for (int j = 0; j < families.size(); j++) {
+				family famObj = families.get(j);
+				individual indObj = individuals.get(i);
+				String Id = indObj.getIdentifier();
+				String Fd = indObj.getSex();
+				String Wife = famObj.getWife();
+							
+				if (Wife != NULL) {
+					if (Id.equals(Wife)&&Fd.equals("M") ) {
+						
+							System.out.println("The Male Wife in a family:" + " "
+						+indObj.getGivenName()+ " " + indObj.getSurName());
+					}
+					
+				}
+
+			}
+		}
+}
+
+//SA_Sprint5_US37
+public void FemaleHusband(String file) {
+
+		for (int i = 0; i < individuals.size(); i++) {
+			for (int j = 0; j < families.size(); j++) {
+				family famObj = families.get(j);
+				individual indObj = individuals.get(i);
+				String Id = indObj.getIdentifier();
+				String Fd = indObj.getSex();
+				String Hus = famObj.getHusband();
+							
+				if (Hus != NULL) {
+					if (Id.equals(Hus)&&Fd.equals("F") ) {
+						
+							System.out.println("The Female Husband in a family:" + " "
+						+indObj.getGivenName()+ " " + indObj.getSurName());
+					}
+					
+				}
+
+			}
+		}
+}
+
 //AM_Sprint5_US31
 	public void abnormalChildren(String file) {
 		for (int i = 0; i < families.size(); i++) {

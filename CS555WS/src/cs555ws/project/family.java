@@ -6,7 +6,8 @@ public class family {
 	 private String wife;
 	 private String divorceDate;
 	 private String weddingDate;
-	public int chilnum;
+	 private ArrayList<String> children = new ArrayList<String>();
+	 
 	
 	 
 	 public String getIdentifier() {
@@ -38,5 +39,18 @@ public class family {
 			 }
 			 public void setWeddingDate(String weddingDate) {
 			  this.weddingDate = weddingDate;
-			 }	
+			 } public void addChildren(String id){
+					children.add(id);
+			 
 	}
+
+
+			public ArrayList<String> getChildren() {
+				return children;
+			}
+
+
+			public void setChildren(ArrayList<String> children) {
+				this.children = children;
+			}
+}

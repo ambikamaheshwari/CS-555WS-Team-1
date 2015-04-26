@@ -42,16 +42,16 @@
  Rebecca and Jesse have abnormal age differece of 52
  No abnormal age difference
 
- Youngest child in a family 
- Youngest child of family: F1 Jenny /Katsopolis/ age 13
- Youngest child of family: F2 Rebecca /Donaldson/ age 64
- No child in family F3
- No child in family F4
- Eldest child in a family 
- Eldest child of family: F1 Jesse /Katsopolis/ age 116
- Eldest child of family: F2 Ronald /Donaldson/ age 94
- No child in family F3
- No child in family F4
+Youngest child in a family 
+Youngest child of family: F1 Jenny /Katsopolis/ age 13 
+Youngest child of family: F2 Richard /Donaldson/ age 63
+No child in family F3
+No child in family F4
+Eldest child in a family 
+Eldest child of family: F1 Jammy /Katsopolis/ age 70 
+Eldest child of family: F2 Rebecca /Donaldson/ age 64
+No child in family F3
+No child in family F4
 
  The Male Wife in a family Mary Katsopolis
  The Female Husband in a family Adam Katsopolis

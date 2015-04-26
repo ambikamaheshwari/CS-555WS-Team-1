@@ -31,6 +31,28 @@ public class Datastructure {
 	private String getXrefId(String xrefId) {
 		return xrefId.replace("@", "");
 	}
+	public int ageOfIndividual(String Id)
+	{
+		
+		for(int j=0;j<individuals.size();j++)
+		{
+			if(individuals.get(j).getIdentifier().equals(Id))
+				return(individuals.get(j).getAge());
+		}
+		return 0;
+		
+	}
+	public String nameOfIndividual(String Id)
+	{
+		
+		for(int j=0;j<individuals.size();j++)
+		{
+			if(individuals.get(j).getIdentifier().equals(Id))
+				return(individuals.get(j).getName());
+		}
+		return null;
+		
+	}
 
 	// read from a file
 	public void readFile(String file) throws IOException {
@@ -101,6 +123,7 @@ public class Datastructure {
 						String CHIL = getXrefId(arguments);
 
 						ind.setChil(CHIL);
+						fam.addChildren(CHIL);
 
 					}
 				}
@@ -939,5 +962,82 @@ public void FemaleHusband(String file) {
 			}}
 
 	}
+	
+	// HB US 33
+		public void printYoungest()
+		{	
+			
+			System.out.println("\n print the youngest child in a mfamily \n");
+			
+			
+			for(int i=0;i<families.size();i++)
+			{
+			
+				if(families.get(i).getChildren()!=null)
+				{				
+
+					int age;
+				String name;
+				
+				
+
+				if(families.get(i).getChildren().size()>=1)
+				{
+					age=ageOfIndividual(families.get(i).getChildren().get(0));
+					name=nameOfIndividual(families.get(i).getChildren().get(0));
+					
+					
+					
+					for(int j=1;j<families.get(i).getChildren().size();j++)
+						if(ageOfIndividual(families.get(i).getChildren().get(j))<=age)
+							{
+								age=ageOfIndividual(families.get(i).getChildren().get(j));
+								name=nameOfIndividual(families.get(i).getChildren().get(j));
+							}
+					System.out.println("Youngest child of family: "+families.get(i).getIdentifier()+" "+name+" age "+age);
+				}else
+					System.out.println("No child in family "+families.get(i).getIdentifier());
+			}}
+		}
+	
+	// HB US 34 
+	
+	public void printEldest()
+	{	
+		System.out.println("\n print the eldest child in a mfamily \n");
+		
+		
+		
+		for(int i=0;i<families.size();i++)
+		{
+		
+			if(families.get(i).getChildren()!=null)
+			{				
+
+				int age;
+			String name;
+			
+			
+
+			if(families.get(i).getChildren().size()>=1)
+			{
+				age=ageOfIndividual(families.get(i).getChildren().get(0));
+				name=nameOfIndividual(families.get(i).getChildren().get(0));
+				
+				
+				
+				for(int j=1;j<families.get(i).getChildren().size();j++)
+					if(ageOfIndividual(families.get(i).getChildren().get(j))>age)
+						{
+							age=ageOfIndividual(families.get(i).getChildren().get(j));
+							name=nameOfIndividual(families.get(i).getChildren().get(j));
+						}
+				System.out.println("Eldest child of family: "+families.get(i).getIdentifier()+" "+name+" age "+age);
+
+			}else
+			System.out.println("No child in family "+families.get(i).getIdentifier());
+		}}
+	}
+
 
 }

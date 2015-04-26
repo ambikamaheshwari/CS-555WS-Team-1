@@ -43,5 +43,7 @@ public class maingedcom {
 		ds.abnormalage2();
 		ds.printEldest();
 		ds.printYoungest();
+		ds.MaleWife("Project08.ged");
+		ds.FemaleHusband("Project08.ged");
 	}
 }

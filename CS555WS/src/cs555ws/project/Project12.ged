@@ -1,14 +1,14 @@
 0 HEAD
 1 SOUR Family Echo
 2 WWW http://www.familyecho.com/
-1 FILE Family 2
+1 FILE Family 6
 1 DATE 26 APR 2015
 1 DEST ANSTFILE
 1 GEDC
 2 VERS 5.5.1
 2 FORM LINEAGE-LINKED
 1 SUBM @I1@
-2 NAME Sidharth 
+2 NAME Ambika Maheshwari
 1 SUBN
 1 CHAR UTF-8
 0 @I1@ INDI
@@ -86,6 +86,15 @@
 1 FAMS @F3@
 1 FAMC @F1@
 0 @I9@ INDI
+1 NAME Mary /Katsopolis/
+2 GIVN Mary
+2 SURN Katsopolis
+2 _MARNM Katsopolis
+1 SEX M
+1 BIRT
+2 DATE 1 MAY 1945
+1 FAMS @F3@
+0 @I10@ INDI
 1 NAME Jaime /Katsopolis/
 2 GIVN Jaime
 2 SURN Katsopolis
@@ -94,7 +103,7 @@
 1 BIRT
 2 DATE 5 JUN 1995
 1 FAMC @F1@
-0 @I10@ INDI
+0 @I11@ INDI
 1 NAME Jade /Katsopolis/
 2 GIVN Jade
 2 SURN Katsopolis
@@ -103,7 +112,7 @@
 1 BIRT
 2 DATE 5 JUN 1985
 1 FAMC @F1@
-0 @I11@ INDI
+0 @I12@ INDI
 1 NAME Jess /Katsopolis/
 2 GIVN Jess
 2 SURN Katsopolis
@@ -112,7 +121,7 @@
 1 BIRT
 2 DATE 6 AUG 1967
 1 FAMC @F1@
-0 @I12@ INDI
+0 @I13@ INDI
 1 NAME Ruby /Katsopolis/
 2 GIVN Ruby
 2 SURN Katsopolis
@@ -122,34 +131,7 @@
 2 DATE 9 MAR 1945
 1 FAMS @F4@
 1 FAMC @F1@
-0 @I13@ INDI
-1 NAME Jenny /Katsopolis/
-2 GIVN Jenny
-2 SURN Katsopolis
-2 _MARNM Katsopolis
-1 SEX F
-1 BIRT
-2 DATE 9 MAR 2002
-1 FAMC @F1@
 0 @I14@ INDI
-1 NAME Ronald /Donaldson/
-2 GIVN Ronald
-2 SURN Donaldson
-2 _MARNM Donaldson
-1 SEX M
-1 BIRT
-2 DATE 5 APR 1920
-1 FAMS @F2@
-0 @I15@ INDI
-1 NAME Remmy /Donaldson/
-2 GIVN Remmy
-2 SURN Donaldson
-2 _MARNM Donaldson
-1 SEX F
-1 BIRT
-2 DATE 2 MAR 1805
-1 FAMS @F2@
-0 @I16@ INDI
 1 NAME Adam /Katsopolis/
 2 GIVN Adam
 2 SURN Katsopolis
@@ -158,15 +140,42 @@
 1 BIRT
 2 DATE 1 FEB 1945
 1 FAMS @F4@
-0 @I17@ INDI
-1 NAME Mary /Katsopolis/
-2 GIVN Mary
+0 @I15@ INDI
+1 NAME Jenny /Katsopolis/
+2 GIVN Jenny
 2 SURN Katsopolis
 2 _MARNM Katsopolis
+1 SEX F
+1 BIRT
+2 DATE 9 MAR 2002
+1 FAMC @F1@
+0 @I16@ INDI
+1 NAME Ronald /Donaldson/
+2 GIVN Ronald
+2 SURN Donaldson
+2 _MARNM Donaldson
 1 SEX M
 1 BIRT
-2 DATE 1 MAY 1945
-1 FAMS @F3@
+2 DATE 5 APR 1920
+1 FAMS @F2@
+0 @I17@ INDI
+1 NAME Remmy /Donaldson/
+2 GIVN Remmy
+2 SURN Donaldson
+2 _MARNM Donaldson
+1 SEX F
+1 BIRT
+2 DATE 2 MAR 1805
+1 FAMS @F2@
+0 @I18@ INDI
+1 NAME Richard /Donaldson/
+2 GIVN Richard
+2 SURN Donaldson
+2 _MARNM Donaldson
+1 SEX M
+1 BIRT
+2 DATE 3 FEB 1951
+1 FAMC @F2@
 0 @F1@ FAM
 1 HUSB @I2@
 1 WIFE @I1@
@@ -176,23 +185,24 @@
 1 CHIL @I6@
 1 CHIL @I7@
 1 CHIL @I8@
-1 CHIL @I9@
 1 CHIL @I10@
 1 CHIL @I11@
 1 CHIL @I12@
 1 CHIL @I13@
+1 CHIL @I15@
 1 _CURRENT Y
 0 @F2@ FAM
-1 HUSB @I14@
-1 WIFE @I15@
+1 HUSB @I16@
+1 WIFE @I17@
 1 CHIL @I1@
+1 CHIL @I18@
 1 _CURRENT Y
 0 @F3@ FAM
-1 HUSB @I17@
-1 WIFE @I8@
+1 HUSB @I8@
+1 WIFE @I9@
 1 _CURRENT Y
 0 @F4@ FAM
-1 HUSB @I12@
-1 WIFE @I16@
+1 HUSB @I13@
+1 WIFE @I14@
 1 _CURRENT Y
 0 TRLR

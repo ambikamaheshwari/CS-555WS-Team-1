@@ -1,22 +1,22 @@
-//Sprint 5 Output
-
-Family F1 Has abnormal number of children's in family, count 11
-Individual I1 Rebecca Donaldson have birthyear 1950 which is between 1900 - 1999 generation
-Individual I2 Jesse Katsopolis have birthyear 1898 which is  between 1800 - 1899 generation
-Individual I3 Jame Katsopolis have birthyear 2000 which is in 2000 to current generation
-Individual I4 Jim Katsopolis have birthyear 1969 which is between 1900 - 1999 generation
-Individual I5 Julie Katsopolis have birthyear 1970 which is between 1900 - 1999 generation
-Individual I6 Juliet Katsopolis have birthyear 1970 which is between 1900 - 1999 generation
-Individual I7 Jeff Katsopolis have birthyear 1971 which is between 1900 - 1999 generation
-Individual I8 Jammy Katsopolis have birthyear 1945 which is between 1900 - 1999 generation
-Individual I9 Jaime Katsopolis have birthyear 1995 which is between 1900 - 1999 generation
-Individual I10 Jade Katsopolis have birthyear 1985 which is between 1900 - 1999 generation
-Individual I11 Jess Katsopolis have birthyear 1967 which is between 1900 - 1999 generation
-Individual I12 Ruby Katsopolis have birthyear 1945 which is between 1900 - 1999 generation
-Individual I13 Jenny Katsopolis have birthyear 2002 which is in 2000 to current generation
-Individual I14 Ronald Donaldson have birthyear 1920 which is between 1900 - 1999 generation
-The Male Wife in a family Mary Katsopolis
-The Female Husband in a family Adam Katsopolis
+ //Sprint 5 Output
+ 
+ Family F1 Has abnormal number of children's in family, count 11
+ Individual I1 Rebecca Donaldson have birthyear 1950 which is between 1900 - 1999 generation
+ Individual I2 Jesse Katsopolis have birthyear 1898 which is  between 1800 - 1899 generation
+ Individual I3 Jame Katsopolis have birthyear 2000 which is in 2000 to current generation
+ Individual I4 Jim Katsopolis have birthyear 1969 which is between 1900 - 1999 generation
+ Individual I5 Julie Katsopolis have birthyear 1970 which is between 1900 - 1999 generation
+ Individual I6 Juliet Katsopolis have birthyear 1970 which is between 1900 - 1999 generation
+ Individual I7 Jeff Katsopolis have birthyear 1971 which is between 1900 - 1999 generation
+ Individual I8 Jammy Katsopolis have birthyear 1945 which is between 1900 - 1999 generation
+ Individual I9 Jaime Katsopolis have birthyear 1995 which is between 1900 - 1999 generation
+ Individual I10 Jade Katsopolis have birthyear 1985 which is between 1900 - 1999 generation
+ Individual I11 Jess Katsopolis have birthyear 1967 which is between 1900 - 1999 generation
+ Individual I12 Ruby Katsopolis have birthyear 1945 which is between 1900 - 1999 generation
+ Individual I13 Jenny Katsopolis have birthyear 2002 which is in 2000 to current generation
+ Individual I14 Ronald Donaldson have birthyear 1920 which is between 1900 - 1999 generation
+ The Male Wife in a family Mary Katsopolis
+ The Female Husband in a family Adam Katsopolis
 
  The age provided is a normal age I1 Rebecca Donaldson is 64
  The age provided is a normal age I2 Jesse Katsopolis is 116
@@ -41,13 +41,17 @@ The Female Husband in a family Adam Katsopolis
  No abnormal age difference
  Rebecca and Jesse have abnormal age differece of 52
  No abnormal age difference
-Youngest child in a family 
-Youngest child of family: F1 Jenny /Katsopolis/ age 13
-Youngest child of family: F2 Rebecca /Donaldson/ age 64
-No child in family F3
-No child in family F4
-Eldest child in a family 
-Eldest child of family: F1 Jesse /Katsopolis/ age 116
-Eldest child of family: F2 Ronald /Donaldson/ age 94
-No child in family F3
-No child in family F4
+
+ Youngest child in a family 
+ Youngest child of family: F1 Jenny /Katsopolis/ age 13
+ Youngest child of family: F2 Rebecca /Donaldson/ age 64
+ No child in family F3
+ No child in family F4
+ Eldest child in a family 
+ Eldest child of family: F1 Jesse /Katsopolis/ age 116
+ Eldest child of family: F2 Ronald /Donaldson/ age 94
+ No child in family F3
+ No child in family F4
+
+ The Male Wife in a family Mary Katsopolis
+ The Female Husband in a family Adam Katsopolis

@@ -2,19 +2,18 @@
 
 Family F1 Has abnormal number of children's in family, count 11
 Individual I1 Rebecca Donaldson have birthyear 1950 which is between 1900 - 1999 generation
-Individual I2 Jesse Katsopolis have birthyear 1949 which is between 1900 - 1999 generation
+Individual I2 Jesse Katsopolis have birthyear 1898 which is  between 1800 - 1899 generation
 Individual I3 Jame Katsopolis have birthyear 2000 which is in 2000 to current generation
 Individual I4 Jim Katsopolis have birthyear 1969 which is between 1900 - 1999 generation
 Individual I5 Julie Katsopolis have birthyear 1970 which is between 1900 - 1999 generation
 Individual I6 Juliet Katsopolis have birthyear 1970 which is between 1900 - 1999 generation
 Individual I7 Jeff Katsopolis have birthyear 1971 which is between 1900 - 1999 generation
-Individual I8 Jammy Katsopolis have birthyear 2008 which is in 2000 to current generation
+Individual I8 Jammy Katsopolis have birthyear 1945 which is between 1900 - 1999 generation
 Individual I9 Jaime Katsopolis have birthyear 1995 which is between 1900 - 1999 generation
 Individual I10 Jade Katsopolis have birthyear 1985 which is between 1900 - 1999 generation
 Individual I11 Jess Katsopolis have birthyear 1967 which is between 1900 - 1999 generation
-Individual I12 Ruby Katsopolis have birthyear 2010 which is in 2000 to current generation
+Individual I12 Ruby Katsopolis have birthyear 1945 which is between 1900 - 1999 generation
 Individual I13 Jenny Katsopolis have birthyear 2002 which is in 2000 to current generation
 Individual I14 Ronald Donaldson have birthyear 1920 which is between 1900 - 1999 generation
-Individual I15 Remmy Donaldson have birthyear 1920 which is between 1900 - 1999 generation
 The Male Wife in a family Mary Katsopolis
 The Female Husband in a family Adam Katsopolis

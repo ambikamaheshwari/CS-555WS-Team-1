@@ -15,6 +15,7 @@
  Individual I12 Ruby Katsopolis have birthyear 1945 which is between 1900 - 1999 generation
  Individual I13 Jenny Katsopolis have birthyear 2002 which is in 2000 to current generation
  Individual I14 Ronald Donaldson have birthyear 1920 which is between 1900 - 1999 generation
+ Individual I18 Richard Donaldson have birthyear 1951 which is between 1900 - 1999 generation
  The Male Wife in a family Mary Katsopolis
  The Female Husband in a family Adam Katsopolis
 

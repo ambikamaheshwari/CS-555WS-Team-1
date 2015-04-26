@@ -942,23 +942,30 @@ public void FemaleHusband(String file) {
 
 			if (birthdate != null) {
 				String birthyear[] = birthdate.split(" ");
-				if ((Integer.parseInt(birthyear[2]) <= 1900)
-						|| (Integer.parseInt(birthyear[2]) >= 1999)) {
+				if ((Integer.parseInt(birthyear[2]) >= 1900)
+						|| (Integer.parseInt(birthyear[2]) <= 1999)) {
 					System.out.println("Individual " + indObj.getIdentifier() +" "+
 							 indObj.getGivenName() +" "+ indObj.getSurName() +" have birthyear " + birthyear[2]
-							+ " which is in 2000 to current generation");
+							+ "which is between 1900 - 1999 generation");
 					
 				}
 				
-				else if ((Integer.parseInt(birthyear[2]) <= 2000)
-						|| (Integer.parseInt(birthyear[2]) >= 2015)) {
+				else if ((Integer.parseInt(birthyear[2]) >= 2000)
+						|| (Integer.parseInt(birthyear[2]) <= 2015)) {
 					
 					System.out.println("Individual " + indObj.getIdentifier() +" "+
 							 indObj.getGivenName() +" "+ indObj.getSurName()
 							+ " have birthyear " + birthyear[2]
-							+ " which is between 1900 - 1999 generation");
+							+ " which is in 2000 to current generation ");
 				}
-
+				else if ((Integer.parseInt(birthyear[2]) >= 1800)
+						|| (Integer.parseInt(birthyear[2]) <= 1899)) {
+					
+					System.out.println("Individual " + indObj.getIdentifier() +" "+
+							 indObj.getGivenName() +" "+ indObj.getSurName()
+							+ " have birthyear " + birthyear[2]
+							+ " which is  between 1800 - 1899 generation");
+				}
 			}}
 
 	}
